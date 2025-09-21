@@ -1,0 +1,149 @@
+version: '3.8'
+
+services:
+  # Rails application
+  web:
+    build: .
+    container_name: cryptopay-web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - RAILS_ENV=production
+      - DATABASE_URL=postgresql://cryptopay:cryptopay123@postgres:5432/cryptopay_production
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./log:/app/log
+      - ./storage:/app/storage
+    networks:
+      - cryptopay-network
+
+  # Sidekiq background jobs
+  sidekiq:
+    build: .
+    container_name: cryptopay-sidekiq
+    restart: unless-stopped
+    command: bundle exec sidekiq
+    environment:
+      - RAILS_ENV=production
+      - DATABASE_URL=postgresql://cryptopay:cryptopay123@postgres:5432/cryptopay_production
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./log:/app/log
+    networks:
+      - cryptopay-network
+
+  # PostgreSQL database
+  postgres:
+    image: postgres:15-alpine
+    container_name: cryptopay-postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=cryptopay_production
+      - POSTGRES_USER=cryptopay
+      - POSTGRES_PASSWORD=cryptopay123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/sql:/docker-entrypoint-initdb.d
+    networks:
+      - cryptopay-network
+
+  # Redis for caching and background jobs
+  redis:
+    image: redis:7-alpine
+    container_name: cryptopay-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes --requirepass redis123
+    networks:
+      - cryptopay-network
+
+  # Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: cryptopay-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./docker/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./docker/nginx/ssl:/etc/nginx/ssl
+      - ./public:/app/public
+    depends_on:
+      - web
+    networks:
+      - cryptopay-network
+
+  # Sidekiq Web UI
+  sidekiq-web:
+    build: .
+    container_name: cryptopay-sidekiq-web
+    restart: unless-stopped
+    command: bundle exec rackup config.ru -p 4567 -o 0.0.0.0
+    ports:
+      - "4567:4567"
+    environment:
+      - RAILS_ENV=production
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - redis
+    networks:
+      - cryptopay-network
+
+  # Prometheus monitoring
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: cryptopay-prometheus
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--storage.tsdb.retention.time=200h'
+      - '--web.enable-lifecycle'
+    networks:
+      - cryptopay-network
+
+  # Grafana dashboards
+  grafana:
+    image: grafana/grafana:latest
+    container_name: cryptopay-grafana
+    restart: unless-stopped
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin123
+      - GF_INSTALL_PLUGINS=grafana-clock-panel
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
+    depends_on:
+      - prometheus
+    networks:
+      - cryptopay-network
+
+volumes:
+  postgres_data:
+  redis_data:
+  prometheus_data:
+  grafana_data:
+
+networks:
+  cryptopay-network:
+    driver: bridge
