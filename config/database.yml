@@ -1,0 +1,37 @@
+# PostgreSQL configuration for CryptoPay Processing Platform
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 20 } %>
+  timeout: 5000
+  
+development:
+  <<: *default
+  database: cryptopay_development
+  host: <%= ENV.fetch("DB_HOST", "localhost") %>
+  port: <%= ENV.fetch("DB_PORT", 5432) %>
+  username: <%= ENV.fetch("DB_USERNAME", "cryptopay") %>
+  password: <%= ENV.fetch("DB_PASSWORD", "cryptopay123") %>
+
+test:
+  <<: *default
+  database: cryptopay_test<%= ENV['TEST_ENV_NUMBER'] %>
+  host: <%= ENV.fetch("DB_HOST", "localhost") %>
+  port: <%= ENV.fetch("DB_PORT", 5432) %>
+  username: <%= ENV.fetch("DB_USERNAME", "cryptopay") %>
+  password: <%= ENV.fetch("DB_PASSWORD", "cryptopay123") %>
+
+production:
+  <<: *default
+  url: <%= ENV.fetch("DATABASE_URL") %>
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS", 20) %>
+  prepared_statements: true
+  advisory_locks: true
+  
+  # SSL configuration for production
+  sslmode: require
+  
+  # Connection pooling
+  checkout_timeout: 5
+  reaping_frequency: 10
+  dead_connection_timeout: 5
