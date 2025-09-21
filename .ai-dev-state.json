@@ -1,0 +1,317 @@
+{
+  "currentProject": {
+    "name": "CryptoPay Processing Platform",
+    "description": "Комплексная платформа для обработки криптовалютных платежей с дашбордом для клиентов",
+    "fullDescription": "\nCryptoPay Processing Platform - это современная B2B платформа для обработки криптовалютных платежей, \nпредоставляющая бизнесу возможность принимать платежи в различных криптовалютах с автоматической \nконвертацией в фиатные валюты.\n\nОСНОВНЫЕ ВОЗМОЖНОСТИ:\n• Прием платежей в BTC, ETH, USDT, USDC, LTC, XRP\n• Автоматическая генерация уникальных адресов для каждого платежа\n• Мониторинг блокчейн транзакций в реальном времени\n• Автоматическая конвертация в фиатные валюты (USD, EUR, RUB)\n• Система уведомлений и вебхуков для интеграции\n• Детальная аналитика и отчетность\n• Многоуровневая система безопасности\n• API для интеграции с внешними системами\n\nКЛИЕНТСКИЙ ДАШБОРД:\n• Обзор всех транзакций и их статусов\n• Статистика по объемам и валютам\n• Настройка уведомлений и лимитов\n• Управление API ключами и вебхуками\n• Генерация отчетов и выгрузка данных\n• Настройки безопасности и 2FA\n",
+    "technologies": [
+      "Ruby 3.2",
+      "Ruby on Rails 7",
+      "Sidekiq",
+      "PostgreSQL",
+      "Redis",
+      "ActionCable",
+      "React 18",
+      "Next.js",
+      "Tailwind CSS",
+      "Blockchain APIs",
+      "Docker",
+      "Kubernetes",
+      "Devise",
+      "bcrypt",
+      "Rack Attack",
+      "Prometheus",
+      "Grafana",
+      "ELK Stack"
+    ],
+    "architecture": {
+      "backend": {
+        "API Gateway": "Nginx + Rack Attack",
+        "Auth Service": "Devise + OTP + Role-based access",
+        "Payment Service": "Rails сервисы для крипто-платежей",
+        "Blockchain Service": "Ruby gems для блокчейн интеграции",
+        "Notification Service": "ActionMailer, SMS, Webhooks",
+        "Analytics Service": "Rails + Sidekiq для аналитики",
+        "Admin Panel": "ActiveAdmin + Custom Rails views"
+      },
+      "frontend": {
+        "Client Dashboard": "React SPA для клиентов",
+        "Admin Dashboard": "Панель администратора",
+        "Public API Docs": "Документация API",
+        "Landing Page": "Маркетинговая страница"
+      },
+      "infrastructure": {
+        "Database": "PostgreSQL + Redis",
+        "Message Queue": "Sidekiq + Redis",
+        "File Storage": "AWS S3 / Active Storage",
+        "Monitoring": "Prometheus + Grafana",
+        "Logging": "Rails Logger + ELK Stack",
+        "Deployment": "Docker + Kubernetes"
+      }
+    },
+    "supportedCryptocurrencies": [
+      {
+        "symbol": "BTC",
+        "name": "Bitcoin",
+        "network": "Bitcoin",
+        "confirmations": 3,
+        "minAmount": 0.00001,
+        "fees": "0.5%"
+      },
+      {
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "network": "Ethereum",
+        "confirmations": 12,
+        "minAmount": 0.001,
+        "fees": "0.3%"
+      },
+      {
+        "symbol": "USDT",
+        "name": "Tether",
+        "network": "Ethereum",
+        "confirmations": 12,
+        "minAmount": 1,
+        "fees": "0.2%"
+      },
+      {
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "network": "Ethereum",
+        "confirmations": 12,
+        "minAmount": 1,
+        "fees": "0.2%"
+      }
+    ],
+    "apiEndpoints": {
+      "authentication": [
+        "POST /api/v1/auth/login",
+        "POST /api/v1/auth/register",
+        "POST /api/v1/auth/refresh",
+        "POST /api/v1/auth/logout",
+        "POST /api/v1/auth/2fa/enable",
+        "POST /api/v1/auth/2fa/verify"
+      ],
+      "payments": [
+        "POST /api/v1/payments/create",
+        "GET /api/v1/payments/:id",
+        "GET /api/v1/payments",
+        "POST /api/v1/payments/:id/confirm",
+        "GET /api/v1/payments/:id/status"
+      ],
+      "wallets": [
+        "GET /api/v1/wallets",
+        "POST /api/v1/wallets/generate",
+        "GET /api/v1/wallets/:address/balance",
+        "GET /api/v1/wallets/:address/transactions"
+      ],
+      "analytics": [
+        "GET /api/v1/analytics/dashboard",
+        "GET /api/v1/analytics/transactions",
+        "GET /api/v1/analytics/revenue",
+        "GET /api/v1/analytics/currencies"
+      ],
+      "webhooks": [
+        "GET /api/v1/webhooks",
+        "POST /api/v1/webhooks",
+        "PUT /api/v1/webhooks/:id",
+        "DELETE /api/v1/webhooks/:id",
+        "POST /api/v1/webhooks/:id/test"
+      ]
+    },
+    "databaseSchema": {
+      "users": {
+        "columns": [
+          "id (UUID)",
+          "email (VARCHAR)",
+          "password_hash (VARCHAR)",
+          "company_name (VARCHAR)",
+          "api_key (VARCHAR)",
+          "api_secret (VARCHAR)",
+          "two_factor_secret (VARCHAR)",
+          "is_verified (BOOLEAN)",
+          "created_at (TIMESTAMP)",
+          "updated_at (TIMESTAMP)"
+        ]
+      },
+      "payments": {
+        "columns": [
+          "id (UUID)",
+          "user_id (UUID)",
+          "amount (DECIMAL)",
+          "currency (VARCHAR)",
+          "fiat_amount (DECIMAL)",
+          "fiat_currency (VARCHAR)",
+          "status (ENUM)",
+          "wallet_address (VARCHAR)",
+          "transaction_hash (VARCHAR)",
+          "confirmations (INTEGER)",
+          "webhook_url (VARCHAR)",
+          "created_at (TIMESTAMP)",
+          "confirmed_at (TIMESTAMP)"
+        ]
+      },
+      "wallets": {
+        "columns": [
+          "id (UUID)",
+          "user_id (UUID)",
+          "address (VARCHAR)",
+          "currency (VARCHAR)",
+          "private_key_encrypted (TEXT)",
+          "balance (DECIMAL)",
+          "last_checked_at (TIMESTAMP)",
+          "created_at (TIMESTAMP)"
+        ]
+      },
+      "transactions": {
+        "columns": [
+          "id (UUID)",
+          "payment_id (UUID)",
+          "hash (VARCHAR)",
+          "block_height (BIGINT)",
+          "from_address (VARCHAR)",
+          "to_address (VARCHAR)",
+          "amount (DECIMAL)",
+          "fee (DECIMAL)",
+          "confirmations (INTEGER)",
+          "status (ENUM)",
+          "created_at (TIMESTAMP)"
+        ]
+      }
+    },
+    "developmentPhases": {
+      "phase1_foundation": {
+        "name": "Основа Rails проекта",
+        "description": "Базовая структура Rails приложения и настройка окружения",
+        "files": [
+          "Gemfile",
+          "README.md",
+          "docker-compose.yml",
+          "config/application.rb",
+          ".env.example",
+          "config/database.yml"
+        ]
+      },
+      "phase2_authentication": {
+        "name": "Система аутентификации",
+        "description": "Devise, JWT авторизация, регистрация, 2FA",
+        "files": [
+          "app/models/user.rb",
+          "app/controllers/api/v1/auth_controller.rb",
+          "app/controllers/application_controller.rb",
+          "config/routes.rb",
+          "app/services/jwt_service.rb",
+          "app/models/concerns/two_factor_authenticatable.rb"
+        ]
+      },
+      "phase3_payment_core": {
+        "name": "Ядро платежной системы",
+        "description": "Создание платежей, работа с кошельками",
+        "files": [
+          "app/models/payment.rb",
+          "app/models/wallet.rb",
+          "app/controllers/api/v1/payments_controller.rb",
+          "app/services/blockchain_service.rb",
+          "app/services/wallet_service.rb",
+          "db/migrate/001_create_payments.rb"
+        ]
+      },
+      "phase4_blockchain_integration": {
+        "name": "Интеграция с блокчейном",
+        "description": "Мониторинг транзакций, подтверждения",
+        "files": [
+          "app/services/bitcoin_service.rb",
+          "app/services/ethereum_service.rb",
+          "app/workers/blockchain_monitor_worker.rb",
+          "lib/crypto_utils.rb",
+          "config/blockchain.yml"
+        ]
+      },
+      "phase5_client_dashboard": {
+        "name": "Клиентский дашборд",
+        "description": "React интерфейс для клиентов",
+        "files": [
+          "client/package.json",
+          "client/src/App.jsx",
+          "client/src/pages/Dashboard.jsx",
+          "client/src/components/PaymentsList.jsx",
+          "client/src/components/Analytics.jsx",
+          "client/src/services/api.js"
+        ]
+      },
+      "phase6_analytics": {
+        "name": "Аналитика и отчеты",
+        "description": "Статистика, графики, экспорт данных",
+        "files": [
+          "app/controllers/api/v1/analytics_controller.rb",
+          "app/services/analytics_service.rb",
+          "client/src/components/Charts.jsx",
+          "client/src/pages/Reports.jsx"
+        ]
+      },
+      "phase7_webhooks": {
+        "name": "Система уведомлений",
+        "description": "Webhooks, email, SMS уведомления",
+        "files": [
+          "app/models/webhook.rb",
+          "app/services/notification_service.rb",
+          "app/workers/webhook_worker.rb",
+          "app/mailers/notification_mailer.rb"
+        ]
+      },
+      "phase8_security": {
+        "name": "Безопасность и мониторинг",
+        "description": "Rack Attack, логирование, мониторинг",
+        "files": [
+          "config/initializers/rack_attack.rb",
+          "app/controllers/concerns/security_headers.rb",
+          "config/initializers/logging.rb",
+          "monitoring/prometheus.yml",
+          "app/controllers/health_controller.rb"
+        ]
+      }
+    },
+    "businessLogic": {
+      "paymentFlow": [
+        "1. Клиент создает платеж через API",
+        "2. Система генерирует уникальный кошелек",
+        "3. Возвращается адрес для отправки криптовалюты",
+        "4. Мониторинг блокчейна ожидает поступление",
+        "5. При поступлении - запускается процесс подтверждения",
+        "6. После N подтверждений - платеж помечается как успешный",
+        "7. Отправка webhook уведомления клиенту",
+        "8. Опционально: конвертация в фиат валюту"
+      ],
+      "feeStructure": {
+        "Bitcoin (BTC)": "0.5% + network fee",
+        "Ethereum (ETH)": "0.3% + gas fee",
+        "Stablecoins (USDT/USDC)": "0.2% + gas fee",
+        "Other cryptocurrencies": "0.4% + network fee"
+      },
+      "securityFeatures": [
+        "Multi-signature кошельки",
+        "Холодное хранение основных средств",
+        "Автоматические лимиты вывода",
+        "IP whitelist для API доступа",
+        "Обязательная 2FA для чувствительных операций",
+        "Шифрование приватных ключей",
+        "Регулярные аудиты безопасности"
+      ]
+    }
+  },
+  "developmentPhase": "phase1_foundation",
+  "completedFiles": [
+    {
+      "filePath": "README.md",
+      "message": "Existing file",
+      "timestamp": "2025-09-21T21:13:38.222Z",
+      "phase": "detected"
+    },
+    {
+      "filePath": "README.md",
+      "message": "Refactor README.md for better maintainability",
+      "timestamp": "2025-09-21T21:13:38.225Z",
+      "phase": "phase1_foundation"
+    }
+  ],
+  "lastUpdated": "2025-09-21T21:13:38.225Z"
+}
