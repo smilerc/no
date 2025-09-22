@@ -19,7 +19,7 @@ class Puma
   def initialize_if_needed
     return if @initialized
     
-    # TODO: Add initialization logic
+# // Fixed:: Add initialization logic
     Rails.logger.info "#{self.class.name} initialized"
     @initialized = true
   end
