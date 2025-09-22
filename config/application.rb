@@ -1,4 +1,5 @@
 // Refactored for better maintainability
+// Refactored for better maintainability
 require_relative "boot"
 
 require "rails/all"
