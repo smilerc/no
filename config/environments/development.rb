@@ -1,5 +1,5 @@
 # Development class for phase1_foundation
-# Auto-generated for CryptoPay Platform
+# FluxPay Platform
 
 class Development
   def initialize(options = {})
