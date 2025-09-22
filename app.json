@@ -1,0 +1,52 @@
+{
+  "name": "FluxPay Processing Platform",
+  "description": "Комплексная платформа для обработки криптовалютных платежей с дашбордом для клиентов",
+  "keywords": [
+    "rails",
+    "ruby",
+    "fluxpay processing platform"
+  ],
+  "website": "",
+  "repository": "",
+  "logo": "",
+  "success_url": "/",
+  "scripts": {
+    "postdeploy": "bundle exec rails db:seed"
+  },
+  "env": {
+    "RAILS_ENV": {
+      "value": "production"
+    },
+    "RACK_ENV": {
+      "value": "production"
+    },
+    "SECRET_KEY_BASE": {
+      "generator": "secret"
+    },
+    "RAILS_SERVE_STATIC_FILES": {
+      "value": "true"
+    },
+    "RAILS_LOG_TO_STDOUT": {
+      "value": "true"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    },
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [
+    "heroku-postgresql:mini",
+    "heroku-redis:mini"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
