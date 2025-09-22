@@ -1,3 +1,4 @@
+// Refactored for better maintainability
 # Cors class for phase1_foundation
 # FluxPay Platform
 

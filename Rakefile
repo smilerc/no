@@ -1,0 +1,5 @@
+// Rakefile
+// FluxPay Processing Platform - phase1_foundation
+// TODO: Implement functionality
+
+export default {};
