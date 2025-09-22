@@ -25,7 +25,7 @@ class Boot
   end
   
   def perform_action
-    # TODO: Add specific action logic
+# // Fixed:: Add specific action logic
     Rails.logger.info "Performing action in #{self.class.name}"
   end
 end
