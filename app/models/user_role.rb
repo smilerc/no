@@ -1,5 +1,4 @@
-// Refactored for better maintainability
-class TwoFactorAuthenticatable < ApplicationRecord
+class UserRole < ApplicationRecord
   # Associations
   belongs_to :user
   

@@ -1,3 +1,4 @@
+// Refactored for better maintainability
 class User < ApplicationRecord
   # Associations
   belongs_to :user
