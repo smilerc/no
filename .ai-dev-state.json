@@ -1,9 +1,8 @@
-// Refactored for better maintainability
 {
   "currentProject": {
-    "name": "CryptoPay Processing Platform",
+    "name": "FluxPay Processing Platform",
     "description": "Комплексная платформа для обработки криптовалютных платежей с дашбордом для клиентов",
-    "fullDescription": "\nCryptoPay Processing Platform - это современная B2B платформа для обработки криптовалютных платежей, \nпредоставляющая бизнесу возможность принимать платежи в различных криптовалютах с автоматической \nконвертацией в фиатные валюты.\n\nОСНОВНЫЕ ВОЗМОЖНОСТИ:\n• Прием платежей в BTC, ETH, USDT, USDC, LTC, XRP\n• Автоматическая генерация уникальных адресов для каждого платежа\n• Мониторинг блокчейн транзакций в реальном времени\n• Автоматическая конвертация в фиатные валюты (USD, EUR, RUB)\n• Система уведомлений и вебхуков для интеграции\n• Детальная аналитика и отчетность\n• Многоуровневая система безопасности\n• API для интеграции с внешними системами\n\nКЛИЕНТСКИЙ ДАШБОРД:\n• Обзор всех транзакций и их статусов\n• Статистика по объемам и валютам\n• Настройка уведомлений и лимитов\n• Управление API ключами и вебхуками\n• Генерация отчетов и выгрузка данных\n• Настройки безопасности и 2FA\n",
+    "fullDescription": "\nFluxPay Processing Platform - это современная B2B платформа для обработки криптовалютных платежей, \nпредоставляющая бизнесу возможность принимать платежи в различных криптовалютах с автоматической \nконвертацией в фиатные валюты.\n\nОСНОВНЫЕ ВОЗМОЖНОСТИ:\n• Прием платежей в BTC, ETH, USDT, USDC, LTC, XRP\n• Автоматическая генерация уникальных адресов для каждого платежа\n• Мониторинг блокчейн транзакций в реальном времени\n• Автоматическая конвертация в фиатные валюты (USD, EUR, RUB)\n• Система уведомлений и вебхуков для интеграции\n• Детальная аналитика и отчетность\n• Многоуровневая система безопасности\n• API для интеграции с внешними системами\n\nКЛИЕНТСКИЙ ДАШБОРД:\n• Обзор всех транзакций и их статусов\n• Статистика по объемам и валютам\n• Настройка уведомлений и лимитов\n• Управление API ключами и вебхуками\n• Генерация отчетов и выгрузка данных\n• Настройки безопасности и 2FA\n",
     "technologies": [
       "Ruby 3.2",
       "Ruby on Rails 7",
@@ -200,6 +199,9 @@
           "config/puma.rb",
           "config/routes.rb",
           "config/application.yml",
+          "Procfile",
+          "app.json",
+          ".slugignore",
           "config/secrets.yml",
           "lib/tasks/setup.rake",
           "lib/tasks/deploy.rake",
@@ -957,7 +959,7 @@
           "sdk/python/README.md",
           "sdk/python/tests/test_client.py",
           "sdk/php/composer.json",
-          "sdk/php/src/CryptoPayClient.php",
+          "sdk/php/src/FluxPayClient.php",
           "sdk/php/src/Payment.php",
           "sdk/php/src/Webhook.php",
           "sdk/php/README.md",
@@ -1002,161 +1004,89 @@
   "developmentPhase": "phase1_foundation",
   "completedFiles": [
     {
+      "filePath": ".ai-dev-state.json",
+      "message": "Existing file",
+      "timestamp": "2025-09-22T11:56:57.129Z",
+      "phase": "detected"
+    },
+    {
       "filePath": "README.md",
       "message": "Existing file",
-      "timestamp": "2025-09-22T06:24:25.969Z",
+      "timestamp": "2025-09-22T11:56:57.129Z",
       "phase": "detected"
     },
     {
       "filePath": "config/application.rb",
       "message": "Existing file",
-      "timestamp": "2025-09-22T06:24:25.969Z",
+      "timestamp": "2025-09-22T11:56:57.129Z",
+      "phase": "detected"
+    },
+    {
+      "filePath": "config/application.yml",
+      "message": "Existing file",
+      "timestamp": "2025-09-22T11:56:57.129Z",
       "phase": "detected"
     },
     {
       "filePath": "config/boot.rb",
       "message": "Existing file",
-      "timestamp": "2025-09-22T06:24:25.969Z",
+      "timestamp": "2025-09-22T11:56:57.129Z",
       "phase": "detected"
     },
     {
       "filePath": "config/database.yml",
       "message": "Existing file",
-      "timestamp": "2025-09-22T06:24:25.969Z",
+      "timestamp": "2025-09-22T11:56:57.129Z",
+      "phase": "detected"
+    },
+    {
+      "filePath": "config/initializers/cors.rb",
+      "message": "Existing file",
+      "timestamp": "2025-09-22T11:56:57.129Z",
+      "phase": "detected"
+    },
+    {
+      "filePath": "config/initializers/session_store.rb",
+      "message": "Existing file",
+      "timestamp": "2025-09-22T11:56:57.129Z",
+      "phase": "detected"
+    },
+    {
+      "filePath": "config/puma.rb",
+      "message": "Existing file",
+      "timestamp": "2025-09-22T11:56:57.129Z",
+      "phase": "detected"
+    },
+    {
+      "filePath": "config/routes.rb",
+      "message": "Existing file",
+      "timestamp": "2025-09-22T11:56:57.129Z",
+      "phase": "detected"
+    },
+    {
+      "filePath": "config/secrets.yml",
+      "message": "Existing file",
+      "timestamp": "2025-09-22T11:56:57.129Z",
+      "phase": "detected"
+    },
+    {
+      "filePath": "docker-compose.prod.yml",
+      "message": "Existing file",
+      "timestamp": "2025-09-22T11:56:57.129Z",
       "phase": "detected"
     },
     {
       "filePath": "docker-compose.yml",
       "message": "Existing file",
-      "timestamp": "2025-09-22T06:24:25.969Z",
+      "timestamp": "2025-09-22T11:56:57.129Z",
       "phase": "detected"
     },
     {
       "filePath": "Gemfile",
       "message": "feat(foundation): add gemfile Gemfile",
-      "timestamp": "2025-09-22T06:24:25.973Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": ".env.example",
-      "message": "feat(foundation): add file .env.example",
-      "timestamp": "2025-09-22T06:26:13.556Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/boot.rb",
-      "message": "Fix TODO: TODO: Add specific action logic...",
-      "timestamp": "2025-09-22T07:48:03.822Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "Dockerfile",
-      "message": "feat(foundation): add file Dockerfile",
-      "timestamp": "2025-09-22T07:48:54.804Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "docker-compose.prod.yml",
-      "message": "feat(foundation): add config docker-compose.prod.yml",
-      "timestamp": "2025-09-22T09:31:17.719Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/environments/development.rb",
-      "message": "feat(foundation): add ruby development.rb",
-      "timestamp": "2025-09-22T09:42:48.607Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/environments/production.rb",
-      "message": "feat(foundation): add ruby production.rb",
-      "timestamp": "2025-09-22T09:48:52.508Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/environments/test.rb",
-      "message": "feat(foundation): add ruby test.rb",
-      "timestamp": "2025-09-22T09:56:56.260Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/environment.rb",
-      "message": "feat(foundation): add ruby environment.rb",
-      "timestamp": "2025-09-22T10:06:54.107Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/puma.rb",
-      "message": "feat(foundation): add ruby puma.rb",
-      "timestamp": "2025-09-22T10:16:30.894Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/routes.rb",
-      "message": "feat(foundation): add ruby routes.rb",
-      "timestamp": "2025-09-22T10:23:34.755Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/application.yml",
-      "message": "feat(foundation): add config application.yml",
-      "timestamp": "2025-09-22T10:24:49.777Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/secrets.yml",
-      "message": "feat(foundation): add config secrets.yml",
-      "timestamp": "2025-09-22T10:27:53.526Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "docker-compose.prod.yml",
-      "message": "Fix TODO: TODO: Add production configuration...",
-      "timestamp": "2025-09-22T10:39:59.087Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "lib/tasks/setup.rake",
-      "message": "feat(foundation): add file setup.rake",
-      "timestamp": "2025-09-22T10:53:03.196Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/puma.rb",
-      "message": "Fix TODO: TODO: Add initialization logic...",
-      "timestamp": "2025-09-22T10:58:07.587Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/routes.rb",
-      "message": "Fix TODO: TODO: Add processing logic...",
-      "timestamp": "2025-09-22T11:08:11.656Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "lib/tasks/deploy.rake",
-      "message": "feat(foundation): add file deploy.rake",
-      "timestamp": "2025-09-22T11:15:16.072Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/initializers/cors.rb",
-      "message": "feat(foundation): add ruby cors.rb",
-      "timestamp": "2025-09-22T11:27:38.373Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": "config/initializers/session_store.rb",
-      "message": "feat(foundation): add ruby session_store.rb",
-      "timestamp": "2025-09-22T11:32:42.678Z",
-      "phase": "phase1_foundation"
-    },
-    {
-      "filePath": ".ai-dev-state.json",
-      "message": "Refactor .ai-dev-state.json for better maintainability",
-      "timestamp": "2025-09-22T11:42:46.893Z",
+      "timestamp": "2025-09-22T11:56:57.133Z",
       "phase": "phase1_foundation"
     }
   ],
-  "lastUpdated": "2025-09-22T11:42:46.893Z"
+  "lastUpdated": "2025-09-22T11:56:57.133Z"
 }
