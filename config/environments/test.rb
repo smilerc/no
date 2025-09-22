@@ -1,5 +1,5 @@
 # Test class for phase1_foundation
-# Auto-generated for CryptoPay Platform
+# FluxPay Platform
 
 class Test
   def initialize(options = {})
