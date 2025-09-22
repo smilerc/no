@@ -5,7 +5,7 @@ development:
 # // Fixed:: Add development configuration
   
 test:
-  # TODO: Add test configuration
+# // Fixed:: Add test configuration
   
 production:
   # TODO: Add production configuration
