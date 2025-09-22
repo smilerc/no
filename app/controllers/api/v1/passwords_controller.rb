@@ -1,3 +1,4 @@
+// Refactored for better maintainability
 class Api::V1::PasswordsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_resource, only: [:show, :update, :destroy]
