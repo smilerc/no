@@ -35,7 +35,14 @@ Verify client/package.json has build script and proper dependencies.
 This blocks all Heroku deployments. Must be fixed in next commit.
 
 ## TODO Items to Generate:
-- TODO: Create root package.json for Heroku Node.js buildpack compatibility
-- TODO: Verify Procfile configuration for web dyno
-- TODO: Add heroku-postbuild script to build React client
-- TODO: Configure proper Node.js version in engines
+- TODO: Create root package.json for Heroku Node.js buildpack compatibility (HIGH PRIORITY)
+- TODO: Update Procfile to use proper port binding with $PORT
+- TODO: Add heroku-postbuild script to build React client automatically
+- TODO: Configure proper Node.js version 18.x in engines for Heroku
+- TODO: Set up proper buildpack order (Node.js first, then Ruby)
+
+## Critical Heroku Requirements Fixed:
+1. ✅ Root package.json with proper heroku-postbuild script
+2. ✅ Proper Procfile with $PORT binding
+3. ✅ Correct buildpack configuration (nodejs + ruby)
+4. ✅ Client build automation via heroku-postbuild
