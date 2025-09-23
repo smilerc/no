@@ -1,0 +1,32 @@
+{
+  "name": "fluxpay-platform",
+  "version": "1.0.0",
+  "description": "FluxPay cryptocurrency payment processing platform",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "scripts": {
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "build": "cd client && npm run build",
+    "start": "bundle exec rails server -p $PORT"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "fluxpay",
+    "cryptocurrency",
+    "payment",
+    "processing",
+    "rails",
+    "heroku"
+  ],
+  "author": "",
+  "license": "MIT"
+}

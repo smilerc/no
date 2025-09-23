@@ -1,5 +1,10 @@
-// client/src/index.js
-// FluxPay Processing Platform - phase5_client_dashboard
-// TODO: Implement functionality
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-export default {};
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
