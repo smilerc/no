@@ -1,6 +1,4 @@
-// Refactored for better maintainability
-// Refactored for better maintainability
-class Api::V1::ProfilesController < ApplicationController
+class Api::V1::CurrenciesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_resource, only: [:show, :update, :destroy]
   
