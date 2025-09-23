@@ -2280,7 +2280,19 @@
       "message": "feat(blockchain): add ruby multi_sig_service.rb",
       "timestamp": "2025-09-23T10:10:34.592Z",
       "phase": "phase4_blockchain_integration"
+    },
+    {
+      "filePath": "app/services/private_key_service.rb",
+      "message": "feat(blockchain): add ruby private_key_service.rb",
+      "timestamp": "2025-09-23T10:29:37.969Z",
+      "phase": "phase4_blockchain_integration"
+    },
+    {
+      "filePath": "app/workers/ethereum_monitor_worker.rb",
+      "message": "feat(blockchain): add ruby ethereum_monitor_worker.rb",
+      "timestamp": "2025-09-23T10:29:37.970Z",
+      "phase": "phase4_blockchain_integration"
     }
   ],
-  "lastUpdated": "2025-09-23T10:10:34.592Z"
+  "lastUpdated": "2025-09-23T10:29:37.971Z"
 }
