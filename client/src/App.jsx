@@ -1,133 +1,39 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 import './styles/App.css';
 
-const App = ({ 
-  data = [], 
-  onSelect, 
-  onUpdate, 
-  loading = false,
-  className = ''
-}) => {
-  const [selectedItem, setSelectedItem] = useState(null);
-  const [isEditing, setIsEditing] = useState(false);
-
-  const handleSelect = (item) => {
-    setSelectedItem(item);
-    if (onSelect) {
-      onSelect(item);
-    }
-  };
-
-  const handleUpdate = (updatedItem) => {
-    if (onUpdate) {
-      onUpdate(updatedItem);
-    }
-    setIsEditing(false);
-    setSelectedItem(updatedItem);
-  };
-
-  if (loading) {
-    return (
-      <div className={`app loading ${className}`}>
-        <div className="spinner">Loading...</div>
-      </div>
-    );
-  }
-
+function App() {
   return (
-    <div className={`app ${className}`}>
+    <div className="app">
       <div className="component-header">
-        <h2>App</h2>
-        {selectedItem && (
-          <div className="selected-info">
-            Selected: {selectedItem.name || selectedItem.id}
-          </div>
-        )}
+        <h2>FluxPay Platform</h2>
+        <p>Cryptocurrency Payment Processing</p>
       </div>
 
       <div className="component-content">
-        {data.length > 0 ? (
-          <div className="items-list">
-            {data.map((item, index) => (
-              <div
-                key={item.id || index}
-                className={`list-item ${selectedItem?.id === item.id ? 'selected' : ''}`}
-                onClick={() => handleSelect(item)}
-              >
-                <div className="item-content">
-                  <div className="item-title">
-                    {item.name || item.title || `Item ${index + 1}`}
-                  </div>
-                  <div className="item-meta">
-                    {item.status && <span className="status">{item.status}</span>}
-                    {item.amount && <span className="amount">${item.amount}</span>}
-                  </div>
-                </div>
-                <div className="item-actions">
-                  <button
-                    className="btn-edit"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setIsEditing(true);
-                    }}
-                  >
-                    Edit
-                  </button>
-                </div>
-              </div>
-            ))}
+        <div className="welcome-section">
+          <h3>Welcome to FluxPay</h3>
+          <p>Your secure cryptocurrency payment gateway is ready.</p>
+        </div>
+        
+        <div className="features-grid">
+          <div className="feature-card">
+            <h4>Multi-Currency Support</h4>
+            <p>Bitcoin, Ethereum, USDT and more</p>
           </div>
-        ) : (
-          <div className="empty-state">
-            <p>No items to display</p>
+          
+          <div className="feature-card">
+            <h4>Real-time Processing</h4>
+            <p>Instant payment confirmations</p>
           </div>
-        )}
-      </div>
-
-      {isEditing && selectedItem && (
-        <div className="edit-modal">
-          <div className="modal-content">
-            <h3>Edit {selectedItem.name || 'Item'}</h3>
-            <form onSubmit={(e) => {
-              e.preventDefault();
-              handleUpdate(selectedItem);
-            }}>
-              <div className="form-group">
-                <label>Name:</label>
-                <input
-                  type="text"
-                  value={selectedItem.name || ''}
-                  onChange={(e) => setSelectedItem({
-                    ...selectedItem,
-                    name: e.target.value
-                  })}
-                />
-              </div>
-              <div className="form-actions">
-                <button type="submit" className="btn-save">Save</button>
-                <button 
-                  type="button" 
-                  className="btn-cancel"
-                  onClick={() => setIsEditing(false)}
-                >
-                  Cancel
-                </button>
-              </div>
-            </form>
+          
+          <div className="feature-card">
+            <h4>Secure Transactions</h4>
+            <p>Enterprise-grade security</p>
           </div>
         </div>
-      )}
+      </div>
     </div>
   );
-};
-
-App.propTypes = {
-  data: PropTypes.array,
-  onSelect: PropTypes.func,
-  onUpdate: PropTypes.func,
-  loading: PropTypes.bool,
-  className: PropTypes.string
-};
+}
 
 export default App;
