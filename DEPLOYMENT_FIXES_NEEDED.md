@@ -40,6 +40,7 @@ This blocks all Heroku deployments. Must be fixed in next commit.
 - TODO: Add heroku-postbuild script to build React client automatically
 - TODO: Configure proper Node.js version 18.x in engines for Heroku
 - TODO: Set up proper buildpack order (Node.js first, then Ruby)
+- TODO: Create Gemfile.lock file for Ruby buildpack (CRITICAL - BLOCKS DEPLOYMENT)
 
 ## Critical Heroku Requirements Fixed:
 1. ✅ Root package.json with proper heroku-postbuild script
