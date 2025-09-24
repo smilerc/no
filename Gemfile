@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.2'
+ruby '3.3.0'
 
 # Core Rails
 gem 'rails', '~> 7.0.0'
@@ -24,7 +24,8 @@ gem 'rack-attack' # Rate limiting
 
 # Background jobs
 gem 'sidekiq'
-# # # gem 'sidekiq-web' # Incompatible with Rails 7
+# # # # gem 'sidekiq-web' # Incompatible with Rails 7
+ # Incompatible with Rails 7
  # Incompatible with Rails 7
  # Incompatible with Rails 7
 gem 'sidekiq-cron'
