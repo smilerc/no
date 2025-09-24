@@ -24,7 +24,8 @@ gem 'rack-attack' # Rate limiting
 
 # Background jobs
 gem 'sidekiq'
-gem 'sidekiq-web'
+# # gem 'sidekiq-web' # Incompatible with Rails 7
+ # Incompatible with Rails 7
 gem 'sidekiq-cron'
 
 # File uploads
@@ -33,9 +34,9 @@ gem 'aws-sdk-s3', require: false
 
 # Cryptocurrency gems
 gem 'bitcoin-ruby'
-gem 'ethereum.rb'
+# gem 'ethereum.rb' # Incompatible with Ruby 3.0+
 gem 'bitcoin-client'
-gem 'web3-eth'
+# gem 'web3-eth' # May have compatibility issues
 
 # HTTP clients
 gem 'httparty'

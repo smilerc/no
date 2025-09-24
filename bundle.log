@@ -1,0 +1,99 @@
+Fetching gem metadata from https://rubygems.org/.........
+Resolving dependencies...
+Installing psych 5.2.6 with native extensions
+Installing sassc 2.4.0 with native extensions
+Fetching font-awesome-sass 6.7.2
+Installing font-awesome-sass 6.7.2
+Fetching arctic_admin 4.3.3
+Installing arctic_admin 4.3.3
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    current directory: /var/lib/gems/3.0.0/gems/psych-5.2.6/ext/psych
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r
+./siteconf20250924-418019-l3oz17.rb extconf.rb
+checking for yaml.h... no
+yaml.h not found
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/bin/$(RUBY_BASE_NAME)3.0
+	--with-libyaml-source-dir
+	--without-libyaml-source-dir
+	--with-yaml-0.1-config
+	--without-yaml-0.1-config
+	--with-pkg-config
+	--without-pkg-config
+	--with-libyaml-dir
+	--without-libyaml-dir
+	--with-libyaml-include
+	--without-libyaml-include=${libyaml-dir}/include
+	--with-libyaml-lib
+	--without-libyaml-lib=${libyaml-dir}/lib
+
+To see why this extension failed to compile, please check the mkmf.log which can
+be found here:
+
+  /var/lib/gems/3.0.0/extensions/x86_64-linux/3.0.0/psych-5.2.6/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /var/lib/gems/3.0.0/gems/psych-5.2.6 for
+inspection.
+Results logged to
+/var/lib/gems/3.0.0/extensions/x86_64-linux/3.0.0/psych-5.2.6/gem_make.out
+
+  /usr/lib/ruby/vendor_ruby/rubygems/ext/builder.rb:95:in `run'
+/usr/lib/ruby/vendor_ruby/rubygems/ext/ext_conf_builder.rb:47:in `block in
+build'
+  /usr/lib/ruby/3.0.0/tempfile.rb:317:in `open'
+  /usr/lib/ruby/vendor_ruby/rubygems/ext/ext_conf_builder.rb:26:in `build'
+  /usr/lib/ruby/vendor_ruby/rubygems/ext/builder.rb:161:in `build_extension'
+/usr/lib/ruby/vendor_ruby/rubygems/ext/builder.rb:195:in `block in
+build_extensions'
+  /usr/lib/ruby/vendor_ruby/rubygems/ext/builder.rb:192:in `each'
+  /usr/lib/ruby/vendor_ruby/rubygems/ext/builder.rb:192:in `build_extensions'
+  /usr/lib/ruby/vendor_ruby/rubygems/installer.rb:847:in `build_extensions'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/rubygems_gem_installer.rb:111:in
+`build_extensions'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/rubygems_gem_installer.rb:30:in
+`install'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/source/rubygems.rb:205:in
+`install'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/installer/gem_installer.rb:55:in
+`install'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/installer/gem_installer.rb:17:in
+`install_from_spec'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/installer/parallel_installer.rb:133:in
+`do_install'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/installer/parallel_installer.rb:124:in
+`block in worker_pool'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/worker.rb:62:in
+`apply_func'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/worker.rb:57:in `block in
+process_queue'
+  /var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/worker.rb:54:in `loop'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/worker.rb:54:in
+`process_queue'
+/var/lib/gems/3.0.0/gems/bundler-2.5.23/lib/bundler/worker.rb:90:in `block (2
+levels) in create_threads'
+
+An error occurred while installing psych (5.2.6), and Bundler cannot continue.
+
+In Gemfile:
+  debug was resolved to 1.11.0, which depends on
+    irb was resolved to 1.15.2, which depends on
+      rdoc was resolved to 6.14.2, which depends on
+        psych
