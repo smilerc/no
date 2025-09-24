@@ -47,3 +47,6 @@ coverage/
 public/assets/
 public/packs/
 public/packs-test/
+
+# Bundler lockfile - let Heroku generate it
+Gemfile.lock
