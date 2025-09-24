@@ -1,0 +1,11 @@
+# Configuration file for ansible/roles/app/tasks/main.yml
+# FluxPay Platform
+
+development:
+  # TODO: Add development configuration
+  
+test:
+  # TODO: Add test configuration
+  
+production:
+  # TODO: Add production configuration
