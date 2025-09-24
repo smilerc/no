@@ -1,0 +1,39 @@
+.filterbar {
+  display: block;
+  margin: 20px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.filterbar-header {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.filterbar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.filterbar .btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.filterbar .btn:hover {
+  background: #0056b3;
+}
+
+.filterbar .loading {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+}
