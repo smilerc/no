@@ -1,0 +1,6 @@
+==> Installing ruby-3.3.0...
+-> ./configure "--prefix=$HOME/.rbenv/versions/3.3.0" --enable-shared --with-ext=openssl,psych,+ --disable-install-doc
+-> make -j 8
+-> make install
+==> Installed ruby-3.3.0 to /root/.rbenv/versions/3.3.0
+Ruby 3.3.0 installed successfully

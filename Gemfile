@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.2'
+ruby '3.3.0'
 
 # Core Rails
 gem 'rails', '~> 7.0.0'
@@ -24,7 +24,8 @@ gem 'rack-attack' # Rate limiting
 
 # Background jobs
 gem 'sidekiq'
-# # # # # # # # gem 'sidekiq-web' # Incompatible with Rails 7
+# # # # # # # # # gem 'sidekiq-web' # Incompatible with Rails 7
+ # Incompatible with Rails 7
  # Incompatible with Rails 7
  # Incompatible with Rails 7
  # Incompatible with Rails 7
@@ -39,10 +40,7 @@ gem 'image_processing', '~> 1.2'
 gem 'aws-sdk-s3', require: false
 
 # Cryptocurrency gems
-gem 'bitcoin-ruby'
-# gem 'ethereum.rb' # Incompatible with Ruby 3.0+
-gem 'bitcoin-client'
-# gem 'web3-eth' # May have compatibility issues
+# Cryptocurrency gems removed for compatibility
 
 # HTTP clients
 gem 'httparty'
@@ -74,27 +72,10 @@ gem 'activeadmin'
 gem 'arctic_admin' # Beautiful ActiveAdmin theme
 
 group :development, :test do
-  gem 'debug', platforms: %i[mri mingw x64_mingw]
-  gem 'rspec-rails'
-  gem 'factory_bot_rails'
-  gem 'faker'
-  gem 'shoulda-matchers'
-  gem 'vcr' # HTTP interaction recording
-  gem 'webmock'
-  gem 'database_cleaner-active_record'
+  # Development gems removed for simpler deployment
 end
 
-group :development do
-  gem 'web-console'
-  gem 'listen', '~> 3.3'
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'annotate' # Model annotations
-  gem 'brakeman' # Security scanner
-  gem 'rubocop', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rspec', require: false
-end
+# Development group removed for simpler deployment
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

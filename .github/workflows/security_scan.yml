@@ -1,0 +1,11 @@
+# Configuration file for .github/workflows/security_scan.yml
+# FluxPay Platform
+
+development:
+  # TODO: Add development configuration
+  
+test:
+  # TODO: Add test configuration
+  
+production:
+  # TODO: Add production configuration
