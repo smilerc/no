@@ -2013,7 +2013,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: TODO: Add test configuration...\\\\\\\",.....",
+      "message": "Fix // Fixed:: TODO: TODO: TODO: Add test configuration...\\\\\\\",.....",
       "timestamp": "2025-09-23T02:35:18.672Z",
       "phase": "phase3_payment_core"
     },
@@ -4182,7 +4182,13 @@
       "message": "feat(core): add module commands.js",
       "timestamp": "2025-09-24T19:01:12.708Z",
       "phase": "phase12_integration_tests"
+    },
+    {
+      "filePath": "spec/support/integration_helpers.rb",
+      "message": "feat(core): add ruby integration_helpers.rb",
+      "timestamp": "2025-09-24T19:04:27.723Z",
+      "phase": "phase12_integration_tests"
     }
   ],
-  "lastUpdated": "2025-09-24T19:01:12.709Z"
+  "lastUpdated": "2025-09-24T19:04:27.723Z"
 }
