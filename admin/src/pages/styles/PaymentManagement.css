@@ -1,0 +1,39 @@
+.paymentmanagement {
+  display: block;
+  margin: 20px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.paymentmanagement-header {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.paymentmanagement-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.paymentmanagement .btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.paymentmanagement .btn:hover {
+  background: #0056b3;
+}
+
+.paymentmanagement .loading {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+}
