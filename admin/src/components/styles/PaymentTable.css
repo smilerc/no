@@ -1,0 +1,39 @@
+.paymenttable {
+  display: block;
+  margin: 20px 0;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.paymenttable-header {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.paymenttable-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.paymenttable .btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.paymenttable .btn:hover {
+  background: #0056b3;
+}
+
+.paymenttable .loading {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+}
