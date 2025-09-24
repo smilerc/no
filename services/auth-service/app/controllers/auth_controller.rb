@@ -1,5 +1,4 @@
-// Refactored for better maintainability
-class Api::V1::BaseController < ApplicationController
+class Api::V1::AuthController < ApplicationController
   before_action :authenticate_user!
   before_action :set_resource, only: [:show, :update, :destroy]
   
