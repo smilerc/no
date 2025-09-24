@@ -1,0 +1,5 @@
+// admin/src/hooks/useAdminAuth.js
+// FluxPay Processing Platform - phase9_admin_panel
+// TODO: Implement functionality
+
+export default {};
