@@ -1,14 +1,18 @@
-node:internal/modules/cjs/loader:1143
-  throw err;
-  ^
 
-Error: Cannot find module '/root/generator/target-repo/src/index.js'
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
-    at Module._load (node:internal/modules/cjs/loader:981:27)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
-    at node:internal/main/run_main_module:28:49 {
-  code: 'MODULE_NOT_FOUND',
-  requireStack: []
-}
+> fluxpay-platform@1.0.0 start
+> bundle exec rails server -p $PORT
 
-Node.js v18.20.8
+/root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.4.0/lib/thor/parser/options.rb:286:in `parse_peek': No value provided for option '--port' (Thor::MalformattedArgumentError)
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.4.0/lib/thor/parser/options.rb:116:in `parse'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.4.0/lib/thor/base.rb:95:in `initialize'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.4.0/lib/thor/invocation.rb:26:in `initialize'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.4.0/lib/thor/shell.rb:45:in `initialize'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.0.8.7/lib/rails/commands/server/server_command.rb:124:in `initialize'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.4.0/lib/thor.rb:534:in `new'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/thor-1.4.0/lib/thor.rb:534:in `dispatch'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.0.8.7/lib/rails/command/base.rb:87:in `perform'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.0.8.7/lib/rails/command.rb:48:in `invoke'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/gems/3.3.0/gems/railties-7.0.8.7/lib/rails/commands.rb:18:in `<top (required)>'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `require'
+	from /root/.rbenv/versions/3.3.0/lib/ruby/3.3.0/bundled_gems.rb:74:in `block (2 levels) in replace_require'
+	from bin/rails:4:in `<main>'
