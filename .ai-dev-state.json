@@ -1001,7 +1001,7 @@
       ]
     }
   },
-  "developmentPhase": "phase16_performance",
+  "developmentPhase": "phase17_sdk",
   "completedFiles": [
     {
       "filePath": ".ai-dev-state.json",
@@ -4896,7 +4896,31 @@
       "message": "feat(core): add ruby benchmarker.rb",
       "timestamp": "2025-09-25T08:51:47.082Z",
       "phase": "phase16_performance"
+    },
+    {
+      "filePath": "app/models/concerns/cacheable.rb",
+      "message": "feat(core): add ruby cacheable.rb",
+      "timestamp": "2025-09-25T09:29:13.745Z",
+      "phase": "phase16_performance"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.js",
+      "message": "Refactor adminApi.js for better maintainability",
+      "timestamp": "2025-09-25T09:29:13.746Z",
+      "phase": "phase16_performance"
+    },
+    {
+      "filePath": "lib/performance/memory_profiler.rb",
+      "message": "feat(core): add ruby memory_profiler.rb",
+      "timestamp": "2025-09-25T09:29:13.746Z",
+      "phase": "phase16_performance"
+    },
+    {
+      "filePath": "sdk/ruby/lib/cryptopay_sdk/webhook.rb",
+      "message": "feat(core): add ruby webhook.rb",
+      "timestamp": "2025-09-25T09:29:13.750Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-09-25T08:51:47.082Z"
+  "lastUpdated": "2025-09-25T09:29:13.750Z"
 }
