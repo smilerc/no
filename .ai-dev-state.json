@@ -2325,7 +2325,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\\\\",...\\\",.....",
+      "message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\\\\",...\\\",.....",
       "timestamp": "2025-09-23T11:12:48.483Z",
       "phase": "phase4_blockchain_integration"
     },
@@ -5070,7 +5070,37 @@
       "message": "Fix TODO: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-09-25T11:27:57.653Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "sdk/python/cryptopay/client.py",
+      "message": "feat(core): add file client.py",
+      "timestamp": "2025-09-25T11:32:23.128Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "sdk/php/composer.json",
+      "message": "feat(core): add file composer.json",
+      "timestamp": "2025-09-25T11:32:23.129Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.js",
+      "message": "Refactor adminHelpers.js for better maintainability",
+      "timestamp": "2025-09-25T11:32:23.129Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "sdk/php/src/Webhook.php",
+      "message": "feat(core): add file Webhook.php",
+      "timestamp": "2025-09-25T11:32:23.130Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "sdk/php/tests/ClientTest.php",
+      "message": "feat(core): add file ClientTest.php",
+      "timestamp": "2025-09-25T11:32:23.131Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-09-25T11:27:57.653Z"
+  "lastUpdated": "2025-09-25T11:32:23.131Z"
 }
