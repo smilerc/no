@@ -24,7 +24,8 @@ gem 'rack-attack' # Rate limiting
 
 # Background jobs
 gem 'sidekiq'
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # gem 'sidekiq-web' # Incompatible with Rails 7
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # gem 'sidekiq-web' # Incompatible with Rails 7
+ # Incompatible with Rails 7
  # Incompatible with Rails 7
  # Incompatible with Rails 7
  # Incompatible with Rails 7
@@ -151,3 +152,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance monitoring
 gem 'bootsnap', '>= 1.4.4', require: false
+
+# Required for ActiveSupport compatibility
+gem "logger", "~> 1.5"

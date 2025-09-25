@@ -1,4 +1,3 @@
-// Refactored for better maintainability
 // Tests for adminHelpers
 import { describe, it, expect } from '@jest/globals';
 

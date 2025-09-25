@@ -402,6 +402,7 @@ DEPENDENCIES
   image_processing (~> 1.2)
   jbuilder
   jwt
+  logger (~> 1.5)
   lograge
   pg (~> 1.4)
   pg_search
