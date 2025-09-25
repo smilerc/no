@@ -1,5 +1,11 @@
-// lib/tasks/deploy.rake
-// CryptoPay Processing Platform - phase1_foundation
-// TODO: Implement functionality
+# deploy.rake
+# Rails task for FluxPay Processing Platform
+# Generated automatically - no implementation needed yet
 
-export default {};
+# TODO: Add task implementation when needed
+# namespace :deploy do
+#   desc "Custom deployment tasks"
+#   task :custom => :environment do
+#     # Implementation here
+#   end
+# end
