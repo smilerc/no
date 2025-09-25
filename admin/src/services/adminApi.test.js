@@ -1,8 +1,7 @@
-// Refactored for better maintainability
-// Tests for adminHelpers
+// Tests for adminApi
 import { describe, it, expect } from '@jest/globals';
 
-describe('adminHelpers', () => {
+describe('adminApi', () => {
   it('should work correctly', () => {
     // TODO: Implement test cases
     expect(true).toBe(true);
