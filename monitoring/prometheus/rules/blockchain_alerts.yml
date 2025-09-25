@@ -1,0 +1,26 @@
+# Blockchain configuration
+development:
+  bitcoin:
+    rpc_url: <%= ENV.fetch('BITCOIN_RPC_URL', 'http://localhost:8332') %>
+    rpc_user: <%= ENV.fetch('BITCOIN_RPC_USER', 'bitcoin') %>
+    rpc_password: <%= ENV.fetch('BITCOIN_RPC_PASSWORD', 'bitcoin123') %>
+    network: testnet
+    min_confirmations: 1
+  
+  ethereum:
+    node_url: <%= ENV.fetch('ETHEREUM_NODE_URL', 'http://localhost:8545') %>
+    network: goerli
+    min_confirmations: 1
+    
+production:
+  bitcoin:
+    rpc_url: <%= ENV.fetch('BITCOIN_RPC_URL') %>
+    rpc_user: <%= ENV.fetch('BITCOIN_RPC_USER') %>
+    rpc_password: <%= ENV.fetch('BITCOIN_RPC_PASSWORD') %>
+    network: mainnet  
+    min_confirmations: 3
+  
+  ethereum:
+    node_url: <%= ENV.fetch('ETHEREUM_NODE_URL') %>
+    network: mainnet
+    min_confirmations: 12
