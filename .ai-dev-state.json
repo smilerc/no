@@ -4998,7 +4998,25 @@
       "message": "feat(core): add module webhook.js",
       "timestamp": "2025-09-25T10:30:50.998Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "sdk/javascript/package.json",
+      "message": "feat(core): add file package.json",
+      "timestamp": "2025-09-25T10:38:16.277Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "sdk/javascript/README.md",
+      "message": "feat(core): add documentation README.md",
+      "timestamp": "2025-09-25T10:38:16.278Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "sdk/python/setup.py",
+      "message": "feat(core): add file setup.py",
+      "timestamp": "2025-09-25T10:38:16.279Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-09-25T10:30:50.998Z"
+  "lastUpdated": "2025-09-25T10:38:16.279Z"
 }
