@@ -5022,7 +5022,13 @@
       "message": "feat(core): add module payment.js",
       "timestamp": "2025-09-25T10:45:41.462Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "sdk/javascript/test/client.test.js",
+      "message": "feat(core): add module client.test.js",
+      "timestamp": "2025-09-25T10:53:07.072Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-09-25T10:45:41.462Z"
+  "lastUpdated": "2025-09-25T10:53:07.072Z"
 }
