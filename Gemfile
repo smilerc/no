@@ -24,7 +24,8 @@ gem 'rack-attack' # Rate limiting
 
 # Background jobs
 gem 'sidekiq'
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # gem 'sidekiq-web' # Incompatible with Rails 7
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # gem 'sidekiq-web' # Incompatible with Rails 7
+ # Incompatible with Rails 7
  # Incompatible with Rails 7
  # Incompatible with Rails 7
  # Incompatible with Rails 7
