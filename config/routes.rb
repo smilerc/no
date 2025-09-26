@@ -1,31 +1,38 @@
-# Routes class for phase1_foundation
-# Auto-generated for CryptoPay Platform
+Rails.application.routes.draw do
+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-class Routes
-  def initialize(options = {})
-    @options = options
-    @initialized = false
+  # Defines the root path route ("/")
+  root "home#index"
+  
+  # Health check endpoint
+  get '/health', to: 'health#show'
+  
+  # API routes
+  namespace :api do
+    namespace :v1 do
+      # Authentication routes
+      post 'auth/login', to: 'auth#login'
+      post 'auth/register', to: 'auth#register'
+      post 'auth/refresh', to: 'auth#refresh'
+      delete 'auth/logout', to: 'auth#logout'
+      
+      # Payment routes
+      resources :payments, only: [:index, :show, :create]
+      resources :wallets, only: [:index, :show, :create]
+      resources :transactions, only: [:index, :show]
+      
+      # Analytics routes
+      get 'analytics/dashboard', to: 'analytics#dashboard'
+      get 'analytics/transactions', to: 'analytics#transactions'
+      get 'analytics/revenue', to: 'analytics#revenue'
+    end
   end
   
-  def process
-    initialize_if_needed
-    
-# // Fixed:: Add processing logic
-    perform_action
-  end
-  
-  private
-  
-  def initialize_if_needed
-    return if @initialized
-    
-    # TODO: Add initialization logic
-    Rails.logger.info "#{self.class.name} initialized"
-    @initialized = true
-  end
-  
-  def perform_action
-    # TODO: Add specific action logic
-    Rails.logger.info "Performing action in #{self.class.name}"
+  # Admin routes
+  namespace :admin do
+    resources :users
+    resources :payments
+    resources :transactions
+    resources :settings
   end
 end

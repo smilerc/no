@@ -1,32 +1,11 @@
-// Refactored for better maintainability
-# Cors class for phase1_foundation
-# FluxPay Platform
-
-class Cors
-  def initialize(options = {})
-    @options = options
-    @initialized = false
-  end
-  
-  def process
-    initialize_if_needed
+# CORS configuration for FluxPay API
+Rails.application.config.middleware.insert_before 0, Rack::Cors do
+  allow do
+    origins '*'  # In production, specify exact domains
     
-    # TODO: Add processing logic
-    perform_action
-  end
-  
-  private
-  
-  def initialize_if_needed
-    return if @initialized
-    
-    # TODO: Add initialization logic
-    Rails.logger.info "#{self.class.name} initialized"
-    @initialized = true
-  end
-  
-  def perform_action
-    # TODO: Add specific action logic
-    Rails.logger.info "Performing action in #{self.class.name}"
+    resource '*',
+      headers: :any,
+      methods: [:get, :post, :put, :patch, :delete, :options, :head],
+      credentials: false
   end
 end
