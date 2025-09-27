@@ -8928,7 +8928,13 @@
       "message": "feat(core): add utility functions",
       "timestamp": "2025-09-27T19:35:40.317Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.js",
+      "message": "Refactor useAdminAuth.js for better maintainability",
+      "timestamp": "2025-09-27T19:52:09.742Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-09-27T19:35:40.317Z"
+  "lastUpdated": "2025-09-27T19:52:09.743Z"
 }
