@@ -9852,7 +9852,31 @@
       "message": "feat(core): add utility functions",
       "timestamp": "2025-09-28T21:08:22.096Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-09-28T21:25:49.544Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.test.js",
+      "message": "Refactor useAdminAuth.test.js for better maintainability",
+      "timestamp": "2025-09-28T21:25:49.546Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.js",
+      "message": "Refactor adminApi.js for better maintainability",
+      "timestamp": "2025-09-28T21:25:49.547Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Refactor adminApi.test.js for better maintainability",
+      "timestamp": "2025-09-28T21:25:49.548Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-09-28T21:08:22.097Z"
+  "lastUpdated": "2025-09-28T21:25:49.548Z"
 }
