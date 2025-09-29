@@ -10920,7 +10920,13 @@
       "message": "feat(core): add utility functions",
       "timestamp": "2025-09-29T15:53:49.891Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-09-29T16:11:20.044Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-09-29T15:53:49.892Z"
+  "lastUpdated": "2025-09-29T16:11:20.044Z"
 }
