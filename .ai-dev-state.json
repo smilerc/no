@@ -11850,7 +11850,25 @@
       "message": "Add tests for useAdminAuth.js",
       "timestamp": "2025-09-30T11:32:41.305Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-09-30T11:44:12.700Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-09-30T11:44:12.701Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/DEVELOPMENT.md",
+      "message": "Update docs/DEVELOPMENT.md with recent changes",
+      "timestamp": "2025-09-30T11:44:12.703Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-09-30T11:32:41.306Z"
+  "lastUpdated": "2025-09-30T11:44:12.703Z"
 }
