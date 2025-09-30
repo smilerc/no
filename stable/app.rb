@@ -5,6 +5,7 @@ class StableApp < Sinatra::Base
   set :port, ENV['PORT'] || 4567
   set :bind, '0.0.0.0'
   
+  
   # Статические файлы
   set :public_folder, File.dirname(__FILE__) + '/public'
   set :views, File.dirname(__FILE__) + '/views'
