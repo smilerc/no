@@ -1,0 +1,19 @@
+<% content_for :layout do %>
+<h1>🔗 Crypto Platform</h1>
+<p class="status">✅ Stable Version Running</p>
+
+<h2>System Status</h2>
+<ul>
+    <li><strong>Status:</strong> <span class="status">Operational</span></li>
+    <li><strong>Version:</strong> 1.0.0</li>
+    <li><strong>Last Updated:</strong> <span class="timestamp"><%= Time.now.strftime('%Y-%m-%d %H:%M:%S UTC') %></span></li>
+</ul>
+
+<h2>API Endpoints</h2>
+<ul>
+    <li><code>GET /api/status</code> - System status</li>
+    <li><code>GET /health</code> - Health check</li>
+</ul>
+
+<p><em>Main application is under development. This stable version ensures 24/7 availability.</em></p>
+<% end %>
