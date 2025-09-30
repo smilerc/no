@@ -3,3 +3,4 @@ ruby '3.3.0'
 
 gem 'sinatra'
 gem 'thin'
+gem 'rackup'
