@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
-ruby '3.3.0'
+ruby '3.0.0'
 
 gem 'sinatra'
-gem 'webrick'
-gem 'rackup'
+gem 'rack'
+gem 'puma'
+gem 'json'

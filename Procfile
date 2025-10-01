@@ -1,1 +1,1 @@
-web: ruby -e "require 'sinatra'; get('/') { 'Hello World' }; Sinatra::Application.run!(host: '0.0.0.0', port: ENV['PORT'])"
+web: bundle exec rackup config.ru -p $PORT
