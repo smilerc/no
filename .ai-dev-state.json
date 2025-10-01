@@ -5769,7 +5769,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\\",...\\...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\\",...\\...",
       "timestamp": "2025-09-25T16:19:23.482Z",
       "phase": "phase17_sdk"
     },
@@ -5877,7 +5877,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\\",...\\\\\\\",.....",
+      "message": "Fix // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\\",...\\\\\\\",.....",
       "timestamp": "2025-09-25T16:52:18.001Z",
       "phase": "phase17_sdk"
     },
@@ -13818,7 +13818,31 @@
       "message": "Refactor adminApi.test.js for better maintainability",
       "timestamp": "2025-10-01T15:02:16.351Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-01T15:13:22.153Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1759331602155.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-10-01T15:13:22.155Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-10-01T15:13:22.156Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Refactor adminApi.test.js for better maintainability",
+      "timestamp": "2025-10-01T15:13:22.157Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-01T15:02:16.351Z"
+  "lastUpdated": "2025-10-01T15:13:22.158Z"
 }
