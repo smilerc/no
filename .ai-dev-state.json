@@ -6837,7 +6837,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\\",...\\...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\\",...\\...",
       "timestamp": "2025-09-26T11:23:39.437Z",
       "phase": "phase17_sdk"
     },
@@ -16968,7 +16968,19 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-10-03T18:24:29.025Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-03T19:01:35.638Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-10-03T19:01:35.641Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-03T18:24:29.026Z"
+  "lastUpdated": "2025-10-03T19:01:35.642Z"
 }
