@@ -18144,7 +18144,13 @@
       "message": "Refactor adminApi.test.js for better maintainability",
       "timestamp": "2025-10-04T22:16:42.245Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-04T22:43:48.325Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-04T22:16:42.246Z"
+  "lastUpdated": "2025-10-04T22:43:48.326Z"
 }
