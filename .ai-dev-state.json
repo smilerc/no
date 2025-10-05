@@ -19032,7 +19032,37 @@
       "message": "Update docs/INSTALLATION.md with recent changes",
       "timestamp": "2025-10-05T16:33:19.198Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-05T16:57:32.018Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-10-05T16:57:32.019Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1759683452020.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-05T16:57:32.020Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1759683452022.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-05T16:57:32.022Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "app/controllers/admin/payments_controller.test.rb",
+      "message": "Add tests for payments_controller.rb",
+      "timestamp": "2025-10-05T16:57:32.023Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-05T16:33:19.199Z"
+  "lastUpdated": "2025-10-05T16:57:32.023Z"
 }
