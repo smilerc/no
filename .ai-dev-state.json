@@ -21576,7 +21576,25 @@
       "message": "Update docs/API.md with recent changes",
       "timestamp": "2025-10-07T14:16:05.294Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-07T14:26:15.355Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-10-07T14:26:15.358Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-10-07T14:26:15.360Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-07T14:16:05.295Z"
+  "lastUpdated": "2025-10-07T14:26:15.361Z"
 }
