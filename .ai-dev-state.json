@@ -22524,7 +22524,13 @@
       "message": "Add tests for adminApi.js",
       "timestamp": "2025-10-08T07:43:43.969Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-08T08:17:51.660Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-08T07:43:43.970Z"
+  "lastUpdated": "2025-10-08T08:17:51.661Z"
 }
