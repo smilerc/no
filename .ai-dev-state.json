@@ -23220,7 +23220,19 @@
       "message": "feat(core): add utility functions",
       "timestamp": "2025-10-08T16:22:05.202Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-08T16:28:10.861Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-10-08T16:28:10.862Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-08T16:22:05.203Z"
+  "lastUpdated": "2025-10-08T16:28:10.862Z"
 }
