@@ -9345,7 +9345,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: TODO: TODO: Add test configuration...\\...",
+      "message": "Fix // Fixed:: TODO: TODO: TODO: TODO: Add test configuration...\\...",
       "timestamp": "2025-09-28T04:18:20.232Z",
       "phase": "phase17_sdk"
     },
@@ -25488,7 +25488,13 @@
       "message": "Refactor adminApi.test.js for better maintainability",
       "timestamp": "2025-10-10T09:28:43.544Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-10T09:35:51.613Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-10T09:28:43.544Z"
+  "lastUpdated": "2025-10-10T09:35:51.614Z"
 }
