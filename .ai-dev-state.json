@@ -25494,7 +25494,25 @@
       "message": "docs: update README with recent changes",
       "timestamp": "2025-10-10T09:35:51.613Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-10T09:56:58.642Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-10-10T09:56:58.643Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1760090218645.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-10T09:56:58.645Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-10T09:35:51.614Z"
+  "lastUpdated": "2025-10-10T09:56:58.645Z"
 }
