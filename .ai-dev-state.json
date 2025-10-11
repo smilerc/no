@@ -27066,7 +27066,37 @@
       "message": "Update docs/INSTALLATION.md with recent changes",
       "timestamp": "2025-10-11T11:17:34.224Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "Update README.md with recent changes",
+      "timestamp": "2025-10-11T11:47:40.184Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1760183260186.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-10-11T11:47:40.186Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/DEVELOPMENT.md",
+      "message": "Update docs/DEVELOPMENT.md with recent changes",
+      "timestamp": "2025-10-11T11:47:40.187Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Refactor adminApi.test.js for better maintainability",
+      "timestamp": "2025-10-11T11:47:40.188Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.js",
+      "message": "Refactor adminHelpers.js for better maintainability",
+      "timestamp": "2025-10-11T11:47:40.189Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-11T11:17:34.224Z"
+  "lastUpdated": "2025-10-11T11:47:40.190Z"
 }
