@@ -36702,7 +36702,31 @@
       "message": "Add tests for base_controller.rb",
       "timestamp": "2025-10-18T09:18:05.598Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-18T09:42:18.713Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.test.js",
+      "message": "Refactor useAdminAuth.test.js for better maintainability",
+      "timestamp": "2025-10-18T09:42:18.715Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.js",
+      "message": "Refactor adminApi.js for better maintainability",
+      "timestamp": "2025-10-18T09:42:18.716Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "app/controllers/admin/base_controller.test.rb",
+      "message": "Add tests for base_controller.rb",
+      "timestamp": "2025-10-18T09:42:18.718Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-18T09:18:05.599Z"
+  "lastUpdated": "2025-10-18T09:42:18.719Z"
 }
