@@ -14067,7 +14067,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-01T20:07:31.862Z",
       "phase": "phase17_sdk"
     },
@@ -14121,7 +14121,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: Add development configurat...\\\",...\",...",
+      "message": "Fix // Fixed:: TODO: TODO: Add development configurat...\\\",...\",...",
       "timestamp": "2025-10-01T20:52:43.278Z",
       "phase": "phase17_sdk"
     },
@@ -39864,7 +39864,19 @@
       "message": "Fix TODO: TODO: TODO: TODO: Add development configurat...\\\\\\...",
       "timestamp": "2025-10-20T17:38:26.990Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-20T17:51:35.872Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-10-20T17:51:35.873Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-20T17:38:26.991Z"
+  "lastUpdated": "2025-10-20T17:51:35.874Z"
 }
