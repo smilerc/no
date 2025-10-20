@@ -39210,7 +39210,31 @@
       "message": "Add tests for payments_controller.rb",
       "timestamp": "2025-10-20T11:12:57.921Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-20T11:25:04.757Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-10-20T11:25:04.759Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/DEVELOPMENT.md",
+      "message": "Update docs/DEVELOPMENT.md with recent changes",
+      "timestamp": "2025-10-20T11:25:04.761Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/API.md",
+      "message": "Update docs/API.md with recent changes",
+      "timestamp": "2025-10-20T11:25:04.763Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-20T11:12:57.921Z"
+  "lastUpdated": "2025-10-20T11:25:04.763Z"
 }
