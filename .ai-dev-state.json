@@ -14223,7 +14223,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: Add development configurat...\",...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: Add development configurat...\",...",
       "timestamp": "2025-10-01T23:25:22.938Z",
       "phase": "phase17_sdk"
     },
@@ -14313,7 +14313,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+"message": "Fix // Fixed:: // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-02T01:52:59.884Z",
       "phase": "phase17_sdk"
     },
@@ -41196,7 +41196,31 @@
       "message": "Fix TODO: TODO: TODO: Add development configurat...\\\",...\",...",
       "timestamp": "2025-10-21T18:01:07.102Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-21T18:34:12.729Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-10-21T18:34:12.731Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1761071652733.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-21T18:34:12.733Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+      "timestamp": "2025-10-21T18:34:12.735Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-21T18:01:07.103Z"
+  "lastUpdated": "2025-10-21T18:34:12.736Z"
 }
