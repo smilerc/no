@@ -40128,7 +40128,19 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-10-21T04:18:19.510Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-21T04:46:24.564Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-10-21T04:46:24.566Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-21T04:18:19.511Z"
+  "lastUpdated": "2025-10-21T04:46:24.567Z"
 }
