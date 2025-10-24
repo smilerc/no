@@ -45750,7 +45750,37 @@
       "message": "Add tests for base_controller.rb",
       "timestamp": "2025-10-24T19:11:47.983Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-24T19:36:55.929Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-10-24T19:36:55.931Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-10-24T19:36:55.933Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1761334615936.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-24T19:36:55.936Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.js",
+      "message": "Refactor adminHelpers.js for better maintainability",
+      "timestamp": "2025-10-24T19:36:55.937Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-24T19:11:47.984Z"
+  "lastUpdated": "2025-10-24T19:36:55.938Z"
 }
