@@ -15609,7 +15609,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: TODO: Add development configuration...\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: // Fixed:: TODO: Add development configuration...\\\\\\\\\\\\...",
       "timestamp": "2025-10-02T19:47:19.531Z",
       "phase": "phase17_sdk"
     },
@@ -45900,7 +45900,13 @@
       "message": "Add tests for base_controller.rb",
       "timestamp": "2025-10-24T21:41:38.409Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-24T22:02:44.925Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-24T21:41:38.410Z"
+  "lastUpdated": "2025-10-24T22:02:44.926Z"
 }
