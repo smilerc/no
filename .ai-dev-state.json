@@ -46920,7 +46920,25 @@
       "message": "feat(core): add utility functions",
       "timestamp": "2025-10-25T19:13:00.166Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-25T19:43:08.814Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-10-25T19:43:08.816Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.js",
+      "message": "Refactor adminApi.js for better maintainability",
+      "timestamp": "2025-10-25T19:43:08.818Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-25T19:13:00.167Z"
+  "lastUpdated": "2025-10-25T19:43:08.819Z"
 }
