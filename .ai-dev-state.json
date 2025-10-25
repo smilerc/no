@@ -46974,7 +46974,31 @@
       "message": "Update docs/INSTALLATION.md with recent changes",
       "timestamp": "2025-10-25T20:50:34.051Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-25T21:07:38.703Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.test.js",
+      "message": "Refactor useAdminAuth.test.js for better maintainability",
+      "timestamp": "2025-10-25T21:07:38.705Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.js",
+      "message": "Refactor adminApi.js for better maintainability",
+      "timestamp": "2025-10-25T21:07:38.707Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Refactor adminApi.test.js for better maintainability",
+      "timestamp": "2025-10-25T21:07:38.709Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-25T20:50:34.052Z"
+  "lastUpdated": "2025-10-25T21:07:38.709Z"
 }
