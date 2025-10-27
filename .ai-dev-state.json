@@ -49524,7 +49524,31 @@
       "message": "feat(core): add utility functions",
       "timestamp": "2025-10-27T18:28:19.228Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-27T19:04:28.942Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-10-27T19:04:28.944Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1761591868947.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-27T19:04:28.947Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1761591868950.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-27T19:04:28.950Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-27T18:28:19.229Z"
+  "lastUpdated": "2025-10-27T19:04:28.950Z"
 }
