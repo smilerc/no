@@ -49614,7 +49614,13 @@
       "message": "Update docs/DEVELOPMENT.md with recent changes",
       "timestamp": "2025-10-27T21:09:01.958Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-27T21:30:11.021Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-27T21:09:01.959Z"
+  "lastUpdated": "2025-10-27T21:30:11.022Z"
 }
