@@ -50874,7 +50874,37 @@
       "message": "Update docs/API.md with recent changes",
       "timestamp": "2025-10-28T16:40:08.730Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-28T16:47:23.165Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1761670043167.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-10-28T16:47:23.167Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1761670043170.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-28T16:47:23.170Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1761670043173.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-28T16:47:23.173Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1761670043175.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-28T16:47:23.175Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-28T16:40:08.731Z"
+  "lastUpdated": "2025-10-28T16:47:23.176Z"
 }
