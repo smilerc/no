@@ -51156,7 +51156,13 @@
       "message": "Update docs/INSTALLATION.md with recent changes",
       "timestamp": "2025-10-28T20:37:48.935Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-28T21:07:56.290Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-28T20:37:48.936Z"
+  "lastUpdated": "2025-10-28T21:07:56.291Z"
 }
