@@ -51594,7 +51594,25 @@
       "message": "Update docs/INSTALLATION.md with recent changes",
       "timestamp": "2025-10-29T09:11:38.797Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-29T09:20:48.739Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-10-29T09:20:48.743Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/DEVELOPMENT.md",
+      "message": "Update docs/DEVELOPMENT.md with recent changes",
+      "timestamp": "2025-10-29T09:20:48.746Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-29T09:11:38.798Z"
+  "lastUpdated": "2025-10-29T09:20:48.747Z"
 }
