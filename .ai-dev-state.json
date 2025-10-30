@@ -53874,7 +53874,31 @@
       "message": "Add tests for payments_controller.rb",
       "timestamp": "2025-10-30T18:59:53.118Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-10-30T19:38:06.129Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-10-30T19:38:06.131Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-10-30T19:38:06.133Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1761853086136.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-10-30T19:38:06.136Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-10-30T18:59:53.120Z"
+  "lastUpdated": "2025-10-30T19:38:06.137Z"
 }
