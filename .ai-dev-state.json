@@ -56388,7 +56388,19 @@
       "message": "Update docs/API.md with recent changes",
       "timestamp": "2025-11-01T20:45:29.085Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-01T21:01:35.009Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1762030895011.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-11-01T21:01:35.011Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-01T20:45:29.086Z"
+  "lastUpdated": "2025-11-01T21:01:35.013Z"
 }
