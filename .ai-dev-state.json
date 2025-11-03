@@ -19545,7 +19545,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\...\",...",
+      "message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\...\",...",
       "timestamp": "2025-10-06T07:03:26.970Z",
       "phase": "phase17_sdk"
     },
@@ -59034,7 +59034,37 @@
       "message": "Update docs/API.md with recent changes",
       "timestamp": "2025-11-03T17:46:00.577Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-03T18:12:08.781Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1762193528784.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-11-03T18:12:08.784Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1762193528787.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-11-03T18:12:08.787Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1762193528790.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-11-03T18:12:08.790Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1762193528793.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-11-03T18:12:08.793Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-03T17:46:00.578Z"
+  "lastUpdated": "2025-11-03T18:12:08.794Z"
 }
