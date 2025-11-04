@@ -60096,7 +60096,19 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-11-04T13:24:43.875Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-04T13:44:56.053Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-11-04T13:44:56.056Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-04T13:24:43.876Z"
+  "lastUpdated": "2025-11-04T13:44:56.057Z"
 }
