@@ -21183,7 +21183,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: Add test configurati...\\\",...\",...",
+      "message": "Fix // Fixed:: TODO: TODO: Add test configurati...\\\",...\",...",
       "timestamp": "2025-10-07T10:52:43.449Z",
       "phase": "phase17_sdk"
     },
@@ -21291,13 +21291,13 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: Add test configurati...\\\",...\",...",
+      "message": "Fix // Fixed:: TODO: Add test configurati...\\\",...\",...",
       "timestamp": "2025-10-07T12:04:24.112Z",
       "phase": "phase17_sdk"
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: TODO: Add test configurati...\\\",...\",...",
+      "message": "Fix // Fixed:: TODO: TODO: TODO: Add test configurati...\\\",...\",...",
       "timestamp": "2025-10-07T12:04:24.113Z",
       "phase": "phase17_sdk"
     },
@@ -65238,7 +65238,13 @@
       "message": "Refactor adminHelpers.js for better maintainability",
       "timestamp": "2025-11-07T20:35:52.557Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-07T21:13:02.219Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-07T20:35:52.558Z"
+  "lastUpdated": "2025-11-07T21:13:02.221Z"
 }
