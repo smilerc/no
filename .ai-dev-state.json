@@ -22281,7 +22281,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: Add test configurati...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: Add test configurati...",
       "timestamp": "2025-10-08T01:23:48.238Z",
       "phase": "phase17_sdk"
     },
@@ -69672,7 +69672,13 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-11-11T11:48:01.038Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-11T11:53:12.071Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-11T11:48:01.040Z"
+  "lastUpdated": "2025-11-11T11:53:12.073Z"
 }
