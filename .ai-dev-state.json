@@ -22821,7 +22821,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: Add test configurati...\\\",...\",...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: Add test configurati...\\\",...\",...",
       "timestamp": "2025-10-08T12:07:57.756Z",
       "phase": "phase17_sdk"
     },
@@ -71364,7 +71364,13 @@
       "message": "Add tests for adminApi.js",
       "timestamp": "2025-11-12T14:02:59.490Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-12T14:15:08.786Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-12T14:02:59.492Z"
+  "lastUpdated": "2025-11-12T14:15:08.788Z"
 }
