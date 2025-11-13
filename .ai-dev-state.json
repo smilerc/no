@@ -72600,7 +72600,19 @@
       "message": "Refactor useAdminAuth.js for better maintainability",
       "timestamp": "2025-11-13T11:57:16.747Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-13T12:01:25.494Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-11-13T12:01:25.498Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-13T11:57:16.749Z"
+  "lastUpdated": "2025-11-13T12:01:25.499Z"
 }
