@@ -76794,7 +76794,19 @@
       "message": "Add tests for base_controller.rb",
       "timestamp": "2025-11-16T22:01:32.725Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-16T22:27:15.892Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1763332035896.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-11-16T22:27:15.896Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-16T22:01:32.727Z"
+  "lastUpdated": "2025-11-16T22:27:15.898Z"
 }
