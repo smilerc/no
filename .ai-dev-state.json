@@ -76686,7 +76686,13 @@
       "message": "Update docs/API.md with recent changes",
       "timestamp": "2025-11-16T18:07:57.881Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-16T18:39:40.909Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-16T18:07:57.883Z"
+  "lastUpdated": "2025-11-16T18:39:40.911Z"
 }
