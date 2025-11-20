@@ -80754,7 +80754,19 @@
       "message": "Update docs/INSTALLATION.md with recent changes",
       "timestamp": "2025-11-20T18:42:06.784Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-20T19:10:53.698Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-11-20T19:10:53.701Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-20T18:42:06.786Z"
+  "lastUpdated": "2025-11-20T19:10:53.702Z"
 }
