@@ -25425,7 +25425,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\...",
       "timestamp": "2025-10-10T09:12:29.752Z",
       "phase": "phase17_sdk"
     },
@@ -80040,7 +80040,19 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-11-20T04:54:37.627Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.test.js",
+      "message": "Add tests for useAdminAuth.js",
+      "timestamp": "2025-11-20T05:39:22.241Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-11-20T05:39:22.245Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-20T04:54:37.629Z"
+  "lastUpdated": "2025-11-20T05:39:22.247Z"
 }
