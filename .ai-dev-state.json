@@ -80412,7 +80412,37 @@
       "message": "Add tests for useAdminAuth.js",
       "timestamp": "2025-11-20T12:43:49.733Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-20T13:02:33.841Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-11-20T13:02:33.845Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.js",
+      "message": "Refactor adminApi.js for better maintainability",
+      "timestamp": "2025-11-20T13:02:33.849Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1763643753853.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-11-20T13:02:33.853Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "app/controllers/admin/payments_controller.test.rb",
+      "message": "Add tests for payments_controller.rb",
+      "timestamp": "2025-11-20T13:02:33.857Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-20T12:43:49.735Z"
+  "lastUpdated": "2025-11-20T13:02:33.859Z"
 }
