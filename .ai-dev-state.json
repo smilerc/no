@@ -25767,7 +25767,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: Add test configuration...\\\\...\",...",
+      "message": "Fix // Fixed:: TODO: Add test configuration...\\\\...\",...",
       "timestamp": "2025-10-10T12:07:59.246Z",
       "phase": "phase17_sdk"
     },
@@ -81150,7 +81150,31 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-11-21T07:29:22.945Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-21T08:05:06.741Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1763712306746.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-11-21T08:05:06.746Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-11-21T08:05:06.751Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "app/controllers/admin/base_controller.test.rb",
+      "message": "Add tests for base_controller.rb",
+      "timestamp": "2025-11-21T08:05:06.755Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-21T07:29:22.946Z"
+  "lastUpdated": "2025-11-21T08:05:06.757Z"
 }
