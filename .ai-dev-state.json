@@ -81288,7 +81288,13 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-11-21T10:52:06.883Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-21T11:08:54.135Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-21T10:52:06.884Z"
+  "lastUpdated": "2025-11-21T11:08:54.137Z"
 }
