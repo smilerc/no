@@ -26085,7 +26085,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: TODO: TODO: TODO: Add test configuration...\\...",
+      "message": "Fix // Fixed:: // Fixed:: TODO: TODO: TODO: Add test configuration...\\...",
       "timestamp": "2025-10-10T16:08:40.717Z",
       "phase": "phase17_sdk"
     },
@@ -26109,7 +26109,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-10T16:18:56.462Z",
       "phase": "phase17_sdk"
     },
@@ -82320,7 +82320,19 @@
       "message": "Refactor adminApi.test.js for better maintainability",
       "timestamp": "2025-11-22T10:23:13.690Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-22T10:58:58.239Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1763809138244.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-11-22T10:58:58.244Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-22T10:23:13.692Z"
+  "lastUpdated": "2025-11-22T10:58:58.246Z"
 }
