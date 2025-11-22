@@ -81990,7 +81990,25 @@
       "message": "Add tests for base_controller.rb",
       "timestamp": "2025-11-22T03:10:09.969Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-22T03:38:55.284Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-11-22T03:38:55.288Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-11-22T03:38:55.292Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-22T03:10:09.971Z"
+  "lastUpdated": "2025-11-22T03:38:55.294Z"
 }
