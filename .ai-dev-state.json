@@ -83430,7 +83430,13 @@
       "message": "docs: update README with recent changes",
       "timestamp": "2025-11-23T15:28:53.300Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-23T16:04:36.949Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-23T15:28:53.302Z"
+  "lastUpdated": "2025-11-23T16:04:36.950Z"
 }
