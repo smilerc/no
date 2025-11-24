@@ -84270,7 +84270,13 @@
       "message": "Refactor useAdminAuth.test.js for better maintainability",
       "timestamp": "2025-11-24T14:00:09.784Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-24T14:13:57.526Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-24T14:00:09.786Z"
+  "lastUpdated": "2025-11-24T14:13:57.528Z"
 }
