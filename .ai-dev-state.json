@@ -85488,7 +85488,19 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-11-25T16:55:43.288Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.test.js",
+      "message": "Add tests for useAdminAuth.js",
+      "timestamp": "2025-11-25T17:27:27.010Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-11-25T17:27:27.013Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-25T16:55:43.290Z"
+  "lastUpdated": "2025-11-25T17:27:27.015Z"
 }
