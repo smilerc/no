@@ -84744,7 +84744,13 @@
       "message": "Add tests for base_controller.rb",
       "timestamp": "2025-11-25T01:05:35.840Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-25T01:49:19.038Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-25T01:05:35.842Z"
+  "lastUpdated": "2025-11-25T01:49:19.041Z"
 }
