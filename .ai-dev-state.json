@@ -86166,7 +86166,13 @@
       "message": "Add tests for payments_controller.rb",
       "timestamp": "2025-11-26T11:13:28.893Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-26T11:30:13.299Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-26T11:13:28.895Z"
+  "lastUpdated": "2025-11-26T11:30:13.301Z"
 }
