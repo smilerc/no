@@ -87762,7 +87762,19 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-11-27T19:16:56.787Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-27T19:53:42.187Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1764273222192.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-11-27T19:53:42.192Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-27T19:16:56.789Z"
+  "lastUpdated": "2025-11-27T19:53:42.194Z"
 }
