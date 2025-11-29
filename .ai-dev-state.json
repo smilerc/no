@@ -28239,7 +28239,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: // Fixed:: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-12T12:28:01.501Z",
       "phase": "phase17_sdk"
     },
@@ -89364,7 +89364,19 @@
       "message": "Refactor adminHelpers.js for better maintainability",
       "timestamp": "2025-11-29T13:54:57.619Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-29T14:31:42.891Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.test.js",
+      "message": "Refactor useAdminAuth.test.js for better maintainability",
+      "timestamp": "2025-11-29T14:31:42.895Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-29T13:54:57.621Z"
+  "lastUpdated": "2025-11-29T14:31:42.897Z"
 }
