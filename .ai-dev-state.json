@@ -28245,7 +28245,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix // Fixed:: // Fixed:: TODO: TODO: TODO: TODO: TODO: TODO: Add test...",
+"message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: TODO: TODO: TODO: TODO: Add test...",
       "timestamp": "2025-10-12T12:28:01.502Z",
       "phase": "phase17_sdk"
     },
@@ -89538,7 +89538,37 @@
       "message": "Refactor useAdminAuth.js for better maintainability",
       "timestamp": "2025-11-29T20:21:38.595Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-29T20:50:23.259Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: TODO: TODO: TODO: TODO: Add test...\",...",
+      "timestamp": "2025-11-29T20:50:23.263Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-11-29T20:50:23.267Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Refactor adminApi.test.js for better maintainability",
+      "timestamp": "2025-11-29T20:50:23.271Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "app/controllers/admin/payments_controller.test.rb",
+      "message": "Add tests for payments_controller.rb",
+      "timestamp": "2025-11-29T20:50:23.275Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-29T20:21:38.597Z"
+  "lastUpdated": "2025-11-29T20:50:23.277Z"
 }
