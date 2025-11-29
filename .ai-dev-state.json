@@ -89244,7 +89244,37 @@
       "message": "Update docs/API.md with recent changes",
       "timestamp": "2025-11-29T10:27:35.354Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-29T10:50:21.195Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1764413421201.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-11-29T10:50:21.201Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-11-29T10:50:21.205Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "app/controllers/admin/base_controller.test.rb",
+      "message": "Add tests for base_controller.rb",
+      "timestamp": "2025-11-29T10:50:21.209Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.js",
+      "message": "Refactor adminHelpers.js for better maintainability",
+      "timestamp": "2025-11-29T10:50:21.212Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-29T10:27:35.355Z"
+  "lastUpdated": "2025-11-29T10:50:21.214Z"
 }
