@@ -28245,13 +28245,13 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: TODO: TODO: TODO: TODO: TODO: TODO: Add test...",
+      "message": "Fix // Fixed:: // Fixed:: TODO: TODO: TODO: TODO: TODO: TODO: Add test...",
       "timestamp": "2025-10-12T12:28:01.502Z",
       "phase": "phase17_sdk"
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-12T12:51:08.366Z",
       "phase": "phase17_sdk"
     },
@@ -28263,7 +28263,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-12T12:51:08.370Z",
       "phase": "phase17_sdk"
     },
@@ -89508,7 +89508,19 @@
       "message": "Fix TODO: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-11-29T18:53:23.398Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-29T19:21:07.118Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1764444067123.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-11-29T19:21:07.123Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-29T18:53:23.400Z"
+  "lastUpdated": "2025-11-29T19:21:07.125Z"
 }
