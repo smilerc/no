@@ -89322,7 +89322,13 @@
       "message": "docs: update README with recent changes",
       "timestamp": "2025-11-29T12:25:39.219Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-29T13:02:23.912Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-29T12:25:39.221Z"
+  "lastUpdated": "2025-11-29T13:02:23.914Z"
 }
