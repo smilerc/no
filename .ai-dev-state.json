@@ -28245,7 +28245,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: TODO: TODO: TODO: TODO: Add test...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: TODO: TODO: TODO: TODO: Add test...",
       "timestamp": "2025-10-12T12:28:01.502Z",
       "phase": "phase17_sdk"
     },
@@ -89568,7 +89568,19 @@
       "message": "Add tests for payments_controller.rb",
       "timestamp": "2025-11-29T20:50:23.275Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-29T21:15:11.069Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-11-29T21:15:11.073Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-29T20:50:23.277Z"
+  "lastUpdated": "2025-11-29T21:15:11.074Z"
 }
