@@ -28245,13 +28245,13 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix // Fixed:: TODO: TODO: TODO: TODO: TODO: TODO: TODO: Add test...",
+"message": "Fix // Fixed:: // Fixed:: TODO: TODO: TODO: TODO: TODO: TODO: Add test...",
       "timestamp": "2025-10-12T12:28:01.502Z",
       "phase": "phase17_sdk"
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix TODO: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
+"message": "Fix // Fixed:: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-12T12:51:08.366Z",
       "phase": "phase17_sdk"
     },
@@ -28263,7 +28263,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+"message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-12T12:51:08.370Z",
       "phase": "phase17_sdk"
     },
@@ -89478,7 +89478,37 @@
       "message": "Add tests for useAdminAuth.js",
       "timestamp": "2025-11-29T18:22:38.853Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-11-29T18:53:23.384Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-11-29T18:53:23.388Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: TODO: TODO: TODO: TODO: TODO: Add test...",
+      "timestamp": "2025-11-29T18:53:23.391Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: TODO: TODO: Add test configuration...\\...",
+      "timestamp": "2025-11-29T18:53:23.394Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
+      "timestamp": "2025-11-29T18:53:23.398Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-29T18:22:38.855Z"
+  "lastUpdated": "2025-11-29T18:53:23.400Z"
 }
