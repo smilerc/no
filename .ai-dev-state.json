@@ -90534,7 +90534,19 @@
       "message": "Refactor adminApi.js for better maintainability",
       "timestamp": "2025-11-30T22:36:22.798Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.js",
+      "message": "Refactor useAdminAuth.js for better maintainability",
+      "timestamp": "2025-11-30T23:13:09.411Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1764544389417.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-11-30T23:13:09.417Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-11-30T22:36:22.800Z"
+  "lastUpdated": "2025-11-30T23:13:09.419Z"
 }
