@@ -28503,7 +28503,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: TODO: Add test confi...\",...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: TODO: Add test confi...\",...",
       "timestamp": "2025-10-12T16:56:39.643Z",
       "phase": "phase17_sdk"
     },
@@ -90756,7 +90756,25 @@
       "message": "Fix TODO: TODO: TODO: TODO: Add test confi...\\\",...\",...",
       "timestamp": "2025-12-01T06:10:10.213Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-01T06:55:55.157Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1764572155162.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-12-01T06:55:55.162Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1764572155167.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-12-01T06:55:55.167Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-01T06:10:10.215Z"
+  "lastUpdated": "2025-12-01T06:55:55.169Z"
 }
