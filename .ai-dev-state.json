@@ -28965,7 +28965,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix TODO: TODO: TODO: Add test configuration...\\\\\\\\...\\\",......",
+"message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\\\\\...\\\",......",
       "timestamp": "2025-10-13T03:22:16.926Z",
       "phase": "phase17_sdk"
     },
@@ -92094,7 +92094,31 @@
       "message": "Add tests for useAdminAuth.js",
       "timestamp": "2025-12-02T14:40:45.919Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-02T14:50:30.783Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1764687030788.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-12-02T14:50:30.788Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-12-02T14:50:30.792Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
+      "timestamp": "2025-12-02T14:50:30.796Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-02T14:40:45.922Z"
+  "lastUpdated": "2025-12-02T14:50:30.798Z"
 }
