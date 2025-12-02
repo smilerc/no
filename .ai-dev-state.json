@@ -91944,7 +91944,25 @@
       "message": "feat(core): add utility functions",
       "timestamp": "2025-12-02T12:00:40.536Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "Update README.md with recent changes",
+      "timestamp": "2025-12-02T12:33:25.278Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-02T12:33:25.282Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1764678805288.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-12-02T12:33:25.288Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-02T12:00:40.537Z"
+  "lastUpdated": "2025-12-02T12:33:25.289Z"
 }
