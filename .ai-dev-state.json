@@ -29367,7 +29367,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: TODO: TODO: Add test configuration...\\...",
+"message": "Fix // Fixed:: // Fixed:: TODO: TODO: TODO: Add test configuration...\\...",
       "timestamp": "2025-10-13T11:45:20.992Z",
       "phase": "phase17_sdk"
     },
@@ -29397,7 +29397,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: TODO: TODO: Add test configurati...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: TODO: TODO: Add test configurati...",
       "timestamp": "2025-10-13T12:01:36.649Z",
       "phase": "phase17_sdk"
     },
@@ -29463,7 +29463,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-13T12:15:03.070Z",
       "phase": "phase17_sdk"
     },
@@ -29499,7 +29499,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: TODO: TODO: TODO: TODO: Add test confi...",
+      "message": "Fix // Fixed:: TODO: TODO: TODO: TODO: TODO: TODO: Add test confi...",
       "timestamp": "2025-10-13T12:21:09.621Z",
       "phase": "phase17_sdk"
     },
@@ -94032,7 +94032,25 @@
       "message": "Fix TODO: TODO: TODO: TODO: TODO: TODO: TODO: TODO: Add test...",
       "timestamp": "2025-12-04T13:31:41.199Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-04T13:50:25.454Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: TODO: TODO: Add test configuration...\\...",
+      "timestamp": "2025-12-04T13:50:25.458Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/DEVELOPMENT.md",
+      "message": "Update docs/DEVELOPMENT.md with recent changes",
+      "timestamp": "2025-12-04T13:50:25.461Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-04T13:31:41.201Z"
+  "lastUpdated": "2025-12-04T13:50:25.463Z"
 }
