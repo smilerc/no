@@ -29397,7 +29397,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configurati...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configurati...",
       "timestamp": "2025-10-13T12:01:36.649Z",
       "phase": "phase17_sdk"
     },
@@ -29499,7 +29499,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: TODO: TODO: Add test confi...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: TODO: TODO: Add test confi...",
       "timestamp": "2025-10-13T12:21:09.621Z",
       "phase": "phase17_sdk"
     },
@@ -29511,7 +29511,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix TODO: TODO: TODO: TODO: Add test configurati...\\\",...\",...",
+"message": "Fix // Fixed:: TODO: TODO: TODO: Add test configurati...\\\",...\",...",
       "timestamp": "2025-10-13T12:44:20.038Z",
       "phase": "phase17_sdk"
     },
@@ -94392,7 +94392,25 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-12-04T21:26:25.097Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "Update README.md with recent changes",
+      "timestamp": "2025-12-04T21:57:08.932Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-04T21:57:08.936Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: TODO: TODO: Add test configurati...\\\\\\...",
+      "timestamp": "2025-12-04T21:57:08.940Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-04T21:26:25.099Z"
+  "lastUpdated": "2025-12-04T21:57:08.942Z"
 }
