@@ -94770,7 +94770,13 @@
       "message": "Add tests for useAdminAuth.js",
       "timestamp": "2025-12-05T09:49:02.152Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-05T10:01:47.628Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-05T09:49:02.154Z"
+  "lastUpdated": "2025-12-05T10:01:47.631Z"
 }
