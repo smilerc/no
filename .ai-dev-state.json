@@ -29703,7 +29703,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-13T14:15:37.749Z",
       "phase": "phase17_sdk"
     },
@@ -95226,7 +95226,13 @@
       "message": "Fix TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\...",
       "timestamp": "2025-12-05T16:23:46.561Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-05T16:46:31.003Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-05T16:23:46.564Z"
+  "lastUpdated": "2025-12-05T16:46:31.006Z"
 }
