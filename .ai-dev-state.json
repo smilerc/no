@@ -29841,7 +29841,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-13T15:37:35.203Z",
       "phase": "phase17_sdk"
     },
@@ -29883,7 +29883,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-13T15:52:52.388Z",
       "phase": "phase17_sdk"
     },
@@ -95928,7 +95928,25 @@
       "message": "Fix TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\\\...\",...",
       "timestamp": "2025-12-06T11:53:08.984Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-06T12:28:57.386Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-06T12:28:57.390Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-12-06T12:28:57.394Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-06T11:53:08.986Z"
+  "lastUpdated": "2025-12-06T12:28:57.396Z"
 }
