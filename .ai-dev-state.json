@@ -95484,7 +95484,37 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-12-06T01:20:30.338Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-06T01:54:14.588Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.test.js",
+      "message": "Refactor useAdminAuth.test.js for better maintainability",
+      "timestamp": "2025-12-06T01:54:14.592Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.js",
+      "message": "Refactor adminApi.js for better maintainability",
+      "timestamp": "2025-12-06T01:54:14.596Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Refactor adminApi.test.js for better maintainability",
+      "timestamp": "2025-12-06T01:54:14.599Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.js",
+      "message": "Refactor adminHelpers.js for better maintainability",
+      "timestamp": "2025-12-06T01:54:14.603Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-06T01:20:30.340Z"
+  "lastUpdated": "2025-12-06T01:54:14.605Z"
 }
