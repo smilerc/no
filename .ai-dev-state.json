@@ -30183,7 +30183,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+"message": "Fix // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-13T18:09:40.749Z",
       "phase": "phase17_sdk"
     },
@@ -96762,7 +96762,25 @@
       "message": "Update docs/INSTALLATION.md with recent changes",
       "timestamp": "2025-12-07T11:42:57.018Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-07T12:08:42.093Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: Add test configuration...\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\...",
+      "timestamp": "2025-12-07T12:08:42.098Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1765109322104.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-12-07T12:08:42.104Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-07T11:42:57.021Z"
+  "lastUpdated": "2025-12-07T12:08:42.106Z"
 }
