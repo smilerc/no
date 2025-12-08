@@ -97992,7 +97992,31 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-12-08T17:24:41.405Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-08T17:38:25.663Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Add tests for adminApi.js",
+      "timestamp": "2025-12-08T17:38:25.668Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.js",
+      "message": "Refactor adminApi.js for better maintainability",
+      "timestamp": "2025-12-08T17:38:25.672Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/services/adminApi.test.js",
+      "message": "Refactor adminApi.test.js for better maintainability",
+      "timestamp": "2025-12-08T17:38:25.676Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-08T17:24:41.408Z"
+  "lastUpdated": "2025-12-08T17:38:25.679Z"
 }
