@@ -30987,7 +30987,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-14T11:24:34.859Z",
       "phase": "phase17_sdk"
     },
@@ -31035,7 +31035,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-14T11:42:47.404Z",
       "phase": "phase17_sdk"
     },
@@ -100398,7 +100398,19 @@
       "message": "Refactor adminApi.js for better maintainability",
       "timestamp": "2025-12-11T06:39:04.560Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-11T07:12:52.314Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-11T07:12:52.319Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-11T06:39:04.562Z"
+  "lastUpdated": "2025-12-11T07:12:52.321Z"
 }
