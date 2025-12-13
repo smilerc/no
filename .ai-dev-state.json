@@ -31821,7 +31821,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\...\\\\...",
+      "message": "Fix // Fixed:: // Fixed:: TODO: Add test configuration...\\\\\\\\\\\\\\\\...\\\\...",
       "timestamp": "2025-10-14T22:22:34.723Z",
       "phase": "phase17_sdk"
     },
@@ -102654,7 +102654,19 @@
       "message": "Refactor useAdminAuth.test.js for better maintainability",
       "timestamp": "2025-12-13T15:33:44.481Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-13T15:59:28.709Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-13T15:59:28.714Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-13T15:33:44.483Z"
+  "lastUpdated": "2025-12-13T15:59:28.716Z"
 }
