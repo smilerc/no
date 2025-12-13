@@ -31719,7 +31719,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: TODO: Add test configuration...\\\\...\",...",
+      "message": "Fix // Fixed:: // Fixed:: TODO: Add test configuration...\\\\...\",...",
       "timestamp": "2025-10-14T20:08:00.680Z",
       "phase": "phase17_sdk"
     },
@@ -102114,7 +102114,25 @@
       "message": "Refactor adminHelpers.js for better maintainability",
       "timestamp": "2025-12-13T00:19:19.945Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-13T00:51:05.106Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-13T00:51:05.111Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/DEVELOPMENT.md",
+      "message": "Update docs/DEVELOPMENT.md with recent changes",
+      "timestamp": "2025-12-13T00:51:05.115Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-13T00:19:19.948Z"
+  "lastUpdated": "2025-12-13T00:51:05.117Z"
 }
