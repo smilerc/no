@@ -104940,7 +104940,25 @@
       "message": "feat(core): add custom initializer",
       "timestamp": "2025-12-15T19:46:47.144Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-15T20:25:32.520Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-15T20:25:32.525Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1765830332532.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-12-15T20:25:32.532Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-15T19:46:47.146Z"
+  "lastUpdated": "2025-12-15T20:25:32.534Z"
 }
