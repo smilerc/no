@@ -33243,7 +33243,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: TODO: TODO: Add test configuration...\\\\...\",...",
+      "message": "Fix // Fixed:: // Fixed:: TODO: TODO: Add test configuration...\\\\...\",...",
       "timestamp": "2025-10-16T00:07:22.975Z",
       "phase": "phase17_sdk"
     },
@@ -107286,7 +107286,37 @@
       "message": "Refactor adminApi.js for better maintainability",
       "timestamp": "2025-12-17T22:20:57.477Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-17T22:50:10.782Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-17T22:50:10.787Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-12-17T22:50:10.792Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1766011810803.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-12-17T22:50:10.803Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.js",
+      "message": "Refactor adminHelpers.js for better maintainability",
+      "timestamp": "2025-12-17T22:50:10.808Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-17T22:20:57.479Z"
+  "lastUpdated": "2025-12-17T22:50:10.811Z"
 }
