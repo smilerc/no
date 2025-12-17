@@ -32919,7 +32919,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: Add test confi...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: Add test confi...",
       "timestamp": "2025-10-15T15:39:22.192Z",
       "phase": "phase17_sdk"
     },
@@ -33027,7 +33027,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix // Fixed:: TODO: TODO: TODO: TODO: Add test configuration...\\...",
+"message": "Fix // Fixed:: // Fixed:: TODO: TODO: TODO: Add test configuration...\\...",
       "timestamp": "2025-10-15T16:34:48.172Z",
       "phase": "phase17_sdk"
     },
@@ -106416,7 +106416,37 @@
       "message": "Fix TODO: TODO: TODO: Add test confi...\",...",
       "timestamp": "2025-12-17T08:25:11.607Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-17T08:57:00.023Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-17T08:57:00.028Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1765961820035.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-12-17T08:57:00.035Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: TODO: TODO: Add test configuration...\\...",
+      "timestamp": "2025-12-17T08:57:00.040Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "app/controllers/admin/payments_controller.test.rb",
+      "message": "Add tests for payments_controller.rb",
+      "timestamp": "2025-12-17T08:57:00.045Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-17T08:25:11.610Z"
+  "lastUpdated": "2025-12-17T08:57:00.049Z"
 }
