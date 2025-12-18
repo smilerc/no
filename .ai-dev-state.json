@@ -108672,7 +108672,13 @@
       "message": "Refactor adminHelpers.js for better maintainability",
       "timestamp": "2025-12-18T18:59:33.212Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-18T19:21:46.430Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-18T18:59:33.215Z"
+  "lastUpdated": "2025-12-18T19:21:46.433Z"
 }
