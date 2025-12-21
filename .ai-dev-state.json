@@ -112248,7 +112248,19 @@
       "message": "Add tests for useAdminAuth.js",
       "timestamp": "2025-12-21T16:16:24.298Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "Update README.md with recent changes",
+      "timestamp": "2025-12-21T16:32:36.798Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1766334756806.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-12-21T16:32:36.806Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-21T16:16:24.300Z"
+  "lastUpdated": "2025-12-21T16:32:36.808Z"
 }
