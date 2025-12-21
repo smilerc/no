@@ -112260,7 +112260,19 @@
       "message": "feat(core): add utility functions",
       "timestamp": "2025-12-21T16:32:36.806Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/hooks/useAdminAuth.test.js",
+      "message": "Add tests for useAdminAuth.js",
+      "timestamp": "2025-12-21T16:48:49.369Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "docs/INSTALLATION.md",
+      "message": "Update docs/INSTALLATION.md with recent changes",
+      "timestamp": "2025-12-21T16:48:49.377Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-21T16:32:36.808Z"
+  "lastUpdated": "2025-12-21T16:48:49.379Z"
 }
