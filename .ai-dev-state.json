@@ -112452,7 +112452,13 @@
       "message": "Refactor adminApi.js for better maintainability",
       "timestamp": "2025-12-21T20:03:39.635Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-21T20:22:51.783Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-21T20:03:39.637Z"
+  "lastUpdated": "2025-12-21T20:22:51.786Z"
 }
