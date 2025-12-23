@@ -114318,7 +114318,13 @@
       "message": "Add tests for adminHelpers.js",
       "timestamp": "2025-12-23T10:11:39.317Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-23T10:20:51.467Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-23T10:11:39.319Z"
+  "lastUpdated": "2025-12-23T10:20:51.470Z"
 }
