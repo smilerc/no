@@ -36135,7 +36135,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-      "message": "Fix // Fixed:: // Fixed:: TODO: TODO: Add developmen...\",...",
+"message": "Fix // Fixed:: // Fixed:: // Fixed:: TODO: Add developmen...\",...",
       "timestamp": "2025-10-17T19:37:34.981Z",
       "phase": "phase17_sdk"
     },
@@ -117648,7 +117648,19 @@
       "message": "docs: update README with recent changes",
       "timestamp": "2025-12-25T13:50:50.364Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": ".ai-dev-state.json",
+      "message": "Fix TODO: TODO: TODO: Add developmen...\\\",...\",...",
+      "timestamp": "2025-12-25T13:56:04.103Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1766670964112.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-12-25T13:56:04.112Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-25T13:50:50.366Z"
+  "lastUpdated": "2025-12-25T13:56:04.114Z"
 }
