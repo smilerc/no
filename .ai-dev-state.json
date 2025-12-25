@@ -117624,7 +117624,25 @@
       "message": "Add tests for useAdminAuth.js",
       "timestamp": "2025-12-25T13:20:22.010Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-25T13:26:37.252Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1766669197259.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-12-25T13:26:37.259Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "admin/src/utils/adminHelpers.test.js",
+      "message": "Add tests for adminHelpers.js",
+      "timestamp": "2025-12-25T13:26:37.264Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-25T13:20:22.012Z"
+  "lastUpdated": "2025-12-25T13:26:37.267Z"
 }
