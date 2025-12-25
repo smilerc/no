@@ -36363,7 +36363,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: TODO: Add development conf...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: TODO: TODO: Add development conf...",
       "timestamp": "2025-10-18T01:30:05.549Z",
       "phase": "phase17_sdk"
     },
@@ -117930,7 +117930,25 @@
       "message": "Add tests for adminHelpers.js",
       "timestamp": "2025-12-25T16:04:37.585Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-25T16:07:50.187Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "lib/utils_1766678870194.rb",
+      "message": "feat(core): add utility functions",
+      "timestamp": "2025-12-25T16:07:50.194Z",
+      "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "config/initializers/custom_1766678870201.rb",
+      "message": "feat(core): add custom initializer",
+      "timestamp": "2025-12-25T16:07:50.201Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-25T16:04:37.588Z"
+  "lastUpdated": "2025-12-25T16:07:50.203Z"
 }
