@@ -36795,7 +36795,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add development conf...\\\",...",
+      "message": "Fix // Fixed:: // Fixed:: // Fixed:: // Fixed:: // Fixed:: Add development conf...\\\",...",
       "timestamp": "2025-10-18T11:02:52.308Z",
       "phase": "phase17_sdk"
     },
@@ -36843,7 +36843,7 @@
     },
     {
       "filePath": ".ai-dev-state.json",
-"message": "Fix // Fixed:: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
+      "message": "Fix // Fixed:: TODO: TODO: TODO: Add test configuration...\\\\\\\\\\\\\\...",
       "timestamp": "2025-10-18T11:54:08.731Z",
       "phase": "phase17_sdk"
     },
@@ -119340,7 +119340,13 @@
       "message": "Fix TODO: TODO: TODO: TODO: TODO: Add test configuration...\\...",
       "timestamp": "2025-12-26T14:13:48.923Z",
       "phase": "phase17_sdk"
+    },
+    {
+      "filePath": "README.md",
+      "message": "docs: update README with recent changes",
+      "timestamp": "2025-12-26T14:34:02.746Z",
+      "phase": "phase17_sdk"
     }
   ],
-  "lastUpdated": "2025-12-26T14:13:48.926Z"
+  "lastUpdated": "2025-12-26T14:34:02.749Z"
 }
