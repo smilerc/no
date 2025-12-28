@@ -1,18 +1,3 @@
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
-// Refactored for better maintainability
 // Tests for useAdminAuth
 import { describe, it, expect } from '@jest/globals';
 
